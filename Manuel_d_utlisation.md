@@ -70,11 +70,13 @@ Lorsque vous saisissez des données, les totaux de tous les tableaux sont mis à
 ### a.	Lancement du logiciel Banana Comptabilité
 Comme tout autre logiciel, le lancement de Banana Comptabilité 9 requiert en amont son installation sur la machine de l’utilisateur.
 Installation du logiciel Banana Comptabilité 9 sur Windows
-Pour installer le programme c’est très simple, grâce à la fonction d'auto installation. En téléchargeant le programme, vous acceptez les Conditions de licence. Une fois effectué le download (téléchargement), faites un double clic sur le fichier téléchargé.![logo_images](/images/DOC1_fr.jpg) 
-Le programme propose d'enregistrer dans le dossier C:\Program Files\Banana90. Si l'on veut enregistrer dans un autre dossier, cliquer sur le bouton Parcourir et choisir le parcours. ![logo_images](/images/DOC2_fr.jpg) Par défaut, le programme a déjà activé les options Créer une icône sur le Bureau e Associer Banana Comptabilité 9 avec l'extension de fichier AC2.
+Pour installer le programme c’est très simple, grâce à la fonction d'auto installation. 
+En téléchargeant le programme, vous acceptez les Conditions de licence. Une fois effectué le download (téléchargement), faites un double clic sur le fichier téléchargé.  
+![logo_images](/images/DOC1_fr.jpg) 
+Le programme propose d'enregistrer dans le dossier C:\Program Files\Banana90. Si l'on veut enregistrer dans un autre dossier, cliquer sur le bouton Parcourir et choisir le parcours. 
+![logo_images](/images/DOC2_fr.jpg) 
+Par défaut, le programme a déjà activé les options Créer une icône sur le Bureau e Associer Banana Comptabilité 9 avec l'extension de fichier AC2.
 ![logo_images](/images/DOC3_fr.jpg)
-Cliquer sur le bouton Installer pour démarrer l'installation. 
-Le programme est installé dans la langue du système d'exploitation de l'ordinateur, mais elle peut toujours être modifiée à partir du menu Outils, commande Options programme. 
 Cliquer sur le bouton Installer pour démarrer l'installation. 
 Le programme est installé dans la langue du système d'exploitation de l'ordinateur, mais elle peut toujours être modifiée à partir du menu Outils, commande Options programme. 
 Après avoir ouvert le programme insérer la clé de licence et confirmer avec OK
@@ -84,7 +86,6 @@ Après avoir installé le logiciel Banana Comptabilité 9 sur votre machine, vou
 * Cliquer sur bouton démarrer
 * Cliquer sur tous les programmes
 * Cliquer sur Banana Comptabilité 9.0
-
 Il sied de signaler que lors de l’installation, l’icône du logiciel apparaît automatiquement sur le bureau de l’ordinateur de l’utilisateur. De ce qui précède, il suffit faire un double clic pour lancer le logiciel.
 
 
