@@ -20,8 +20,5 @@ Nous exprimons plus particulièrement notre profonde gratitude aux personnes qui
 |     7     |     MAKENGO MBESA Fédé              |     INSPECTEUR ITINERANT                 |     IPP/KIN-LUKUNGA        |     +243998134409    |
 |     8     |     BANDUKI MBOMA Risti             |     INFORMATICIEN                        |     INDEPENDANT            |     +243823670743    |
 |     9     |     MBUYI NDAYE Jean                |     INFORMATICIEN                        |     SERNAFOR TECHNIQUE     |     +243814412756    |
-|     10    |     KANKU MABILA Jean-Paul          |     ENSEIG/INFORMATICIEN                 |     INSTITUT LUMUMBA II    |     +243822594654    |
+|     10    |     KANKU MABILA Jean-Paul          |     ENSEIG/INFORMATICIEN                 |     INSTITUT LUMUMBA II    |     +243822594654    
 
-
-![logo](/images/enregistrement_fr.jpg)
-![logo](/images/enregistrement_fr2.jpg)
