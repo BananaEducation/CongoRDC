@@ -39,12 +39,6 @@ Au terme de cette activité, le participant sera capable de :
 #### 3.	Méthodes et techniques : Exposé, discussion dirigée, brainstorming et travail de groupe.
 #### 4.	Durée : 120 minutes
 #### 5.	Déroulement de l’activité :
-||    N°    |    Tâches    |    Méthodes   et Techniques    |    Durée    |  |
-|    1    |    Présenter l’activité et ses objectifs    |    Exposé    |    5 min.    |  |
-|    2    |    Définir   des concepts de base : logiciel, logiciel comptable    |    Brainstorming    |    15 min.    |  |
-|    3    |    Constituer des sous-groupes pour : donner   l’importance et les caractéristiques d’un logiciel comptable. Et présenter le   logiciel Banana Comptabilité.    |    Travail en groupe    |    60 min.    |  |
-|    4    |    En   plénière : le rapporteur de chaque sous-groupe présente la production de   son équipe suivie de mise en commun avec les membres des autres sous-groupes   et du facilitateur.    |    Discussion dirigée    |    30 min.    |  |
-|    5    |    Questions de synthèse   ·           Donner l’importance d’un logiciel   comptable,   ·           Citer les caractéristiques d’un logiciel   comptable   ·           Comment installer et lancer le logiciel   Banana Comptabilité ?   ·           Comment créer un nouveau fichier ?    |    Discussion dirigée    |    10 min.    |  |
 
 # B.	Fiche Technique
 ## 1.	Définition des concepts de base
