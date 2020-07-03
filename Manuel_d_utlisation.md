@@ -39,4 +39,44 @@ Au terme de cette activité, le participant sera capable de :
 #### 3.	Méthodes et techniques : Exposé, discussion dirigée, brainstorming et travail de groupe.
 #### 4.	Durée : 120 minutes
 #### 5.	Déroulement de l’activité :
-|
+||    N°    |    Tâches    |    Méthodes   et Techniques    |    Durée    |  |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|---------------|---|
+|    1    |    Présenter l’activité et ses objectifs    |    Exposé    |    5 min.    |  |
+|    2    |    Définir   des concepts de base : logiciel, logiciel comptable    |    Brainstorming    |    15 min.    |  |
+|    3    |    Constituer des sous-groupes pour : donner   l’importance et les caractéristiques d’un logiciel comptable. Et présenter le   logiciel Banana Comptabilité.    |    Travail en groupe    |    60 min.    |  |
+|    4    |    En   plénière : le rapporteur de chaque sous-groupe présente la production de   son équipe suivie de mise en commun avec les membres des autres sous-groupes   et du facilitateur.    |    Discussion dirigée    |    30 min.    |  |
+|    5    |    Questions de synthèse   ·           Donner l’importance d’un logiciel   comptable,   ·           Citer les caractéristiques d’un logiciel   comptable   ·           Comment installer et lancer le logiciel   Banana Comptabilité ?   ·           Comment créer un nouveau fichier ?    |    Discussion dirigée    |    10 min.    |  |
+
+# B.	Fiche Technique
+## 1.	Définition des concepts de base
+* Logiciel : est un ensemble des programmes, procédés et règles d’un système de traitement informatique des données. Le logiciel détermine donc les tâches qui peuvent être effectuées par la machine, ordonne son fonctionnement et lui procure ainsi son utilité fonctionnelle.
+* Logiciel comptable : est un programme informatique permettant d'assurer toutes (ou presque toutes) les tâches de la comptabilité pour établir les états financiers.
+Le logiciel de comptabilité est le système d'information comptable. Il peut être développé spécifiquement par l'entreprise qui l'utilise, ou il peut être acheté à un fournisseur de logiciel, ou être une combinaison d'un ou plusieurs progiciels applicatifs achetés à un fournisseur avec des adaptations locales ou spécifiques. Sa complexité et son coût sont variables en fonction de l'entreprise qui l'utilise.
+## 2.	Importance du logiciel comptable
+Il enregistre et traite les transactions comptables à l'intérieur de modules fonctionnels comme la comptabilité fournisseurs, la comptabilité clients, la paie et le Grand-livre. Les logiciels comptables permettent des gains considérables de temps par l’utilisation de bases de données mises progressivement à jour par l’entreprise (liste des clients, fournisseurs, articles vendus et achetés…). Les documents comptables peuvent être modifiés et imprimés et par conséquent peuvent être diffusés plus rapidement.
+## 3.	Caractéristiques du logiciel Banana Comptabilité	
+Le logiciel Banana Comptabilité 9 est un logiciel qui, tout en étant simple à utiliser, offre tous les outils nécessaires pour une gestion optimale de votre comptabilité.
+Il permet de (d’) : 
+* Préparer le Livre de caisse, le Bilan et le Compte de Résultat, les Décomptes TVA et toutes les impressions fiscales conformément à la législation en vigueur.
+Il est idéal pour les agents économiques (entreprises, fiduciaires, professions libérales, gérants et commerçants) ainsi que pour des associations sans but lucratif : associations, fondations, club, patriciats, copropriétés, paroisses et églises, bibliothèques, écoles ainsi que la comptabilité de la cellule familiale. 
+* Obtenir facilement les états financiers avec tous les détails nécessaires et les autres documents comptables ;
+* Mettre à jour automatiquement les soldes de comptes au fur et à mesure que vous enregistrez vos mouvements. La situation de vos comptes est toujours sous contrôle ;
+* Ajouter et supprimer des comptes, modifier des descriptions, créer des sous-groupes et divers niveaux de totalisation, même pendant l'année ;
+* Contrôler des factures ouvertes et réglées ;
+* Gérez les Clients et Fournisseurs (balance âgée) ;
+*Créez les factures à envoyer à vos clients ;
+-	Connaître à tout moment les factures expirées ou ouvertes ;
+-	Contrôler et vérifier votre comptabilité à tout moment ;
+-	Créer des simulations ;
+-	Créer d'innombrables rapports, même par période ;
+-	Gérer des projets, secteurs ou activités spécifiques ;
+N.B : Le logiciel banana est utilisé comme Microsoft Office Excel, mais sans devoir insérer des formules
+Les graphiques ressemblent beaucoup à Excel, mais le logiciel Banana vous donne l'avantage de ne pas devoir insérer des formules. Très abordable, il vous offre aussi la possibilité de copier, couper, coller et corriger les données à tout moment.
+Lorsque vous saisissez des données, les totaux de tous les tableaux sont mis à jour automatiquement. Sur la base des données insérées, Banana crée immédiatement le bilan, le compte de résultat, les relevés de TVA et de nombreux autres rapports.
+4.	Présentation du Logiciel Banana Comptabilité
+a.	Lancement du logiciel Banana Comptabilité
+Comme tout autre logiciel, le lancement de Banana Comptabilité 9 requiert en amont son installation sur la machine de l’utilisateur.
+Installation du logiciel Banana Comptabilité 9 sur Windows
+Pour installer le programme c’est très simple, grâce à la fonction d'auto installation. En téléchargeant le programme, vous acceptez les Conditions de licence. Une fois effectué le download (téléchargement), faites un double clic sur le fichier téléchargé.
+![logo_images](/images/DOC1_fr.jpg) 
+Le programme propose d'enregistrer dans le dossier C:\Program Files\Banana90. Si l'on veut enregistrer dans un autre dossier, cliquer sur le bouton Parcourir et choisir le parcours.
