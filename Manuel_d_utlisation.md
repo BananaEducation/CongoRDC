@@ -1,5 +1,3 @@
-# BananaEducation CongoRDC
-
 ## **REMERCIEMENTS**
 Le Service National de la Formation Technique (SERNAFOR/Technique) est heureux d’exprimer ses remerciements aux autorités du Ministère de l’Enseignement Primaire, Secondaire et Technique pour leur appui tant moral, matériel que financier dans la réalisation du présent module de formation dont l’importance n’est plus à démontrer en R.D. Congo.
 Il s’agit explicitement des personnalités ci-après :
