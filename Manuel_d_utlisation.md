@@ -39,7 +39,7 @@ Au terme de cette activité, le participant sera capable de :
 #### 3.	Méthodes et techniques : Exposé, discussion dirigée, brainstorming et travail de groupe.
 #### 4.	Durée : 120 minutes
 #### 5.	Déroulement de l’activité :
-
+![logo_images](/images/DOC0_fr.jpg)
 # B.	Fiche Technique
 ## 1.	Définition des concepts de base
 * Logiciel : est un ensemble des programmes, procédés et règles d’un système de traitement informatique des données. Le logiciel détermine donc les tâches qui peuvent être effectuées par la machine, ordonne son fonctionnement et lui procure ainsi son utilité fonctionnelle.
@@ -80,7 +80,7 @@ Par défaut, le programme a déjà activé les options Créer une icône sur le 
 Cliquer sur le bouton Installer pour démarrer l'installation. 
 Le programme est installé dans la langue du système d'exploitation de l'ordinateur, mais elle peut toujours être modifiée à partir du menu Outils, commande Options programme. 
 Après avoir ouvert le programme insérer la clé de licence et confirmer avec OK
-![logo_images](images/DOC4_fr.jpg)
+![logo_images](/images/DOC4_fr.jpg)
 En insérant la clef de licence dans Banana Comptabilité, on passe de la mode de démonstration à la mode complète. Si la clef de licence n'est pas insérée, un message apparaît à l'ouverture du fichier comptable, pour avertir l'utilisateur qu'il travaille en mode Starter Edition (version d’essai gratuit limitée à 70 lignes d’écritures).
 Après avoir installé le logiciel Banana Comptabilité 9 sur votre machine, vous devrez :
 * Cliquer sur bouton démarrer
