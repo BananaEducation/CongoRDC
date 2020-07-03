@@ -1,2 +1,0 @@
-# BananaEducation CongoRDC
-
