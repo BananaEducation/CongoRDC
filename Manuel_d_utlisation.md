@@ -40,7 +40,6 @@ Au terme de cette activité, le participant sera capable de :
 #### 4.	Durée : 120 minutes
 #### 5.	Déroulement de l’activité :
 ||    N°    |    Tâches    |    Méthodes   et Techniques    |    Durée    |  |
-|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|---------------|---|
 |    1    |    Présenter l’activité et ses objectifs    |    Exposé    |    5 min.    |  |
 |    2    |    Définir   des concepts de base : logiciel, logiciel comptable    |    Brainstorming    |    15 min.    |  |
 |    3    |    Constituer des sous-groupes pour : donner   l’importance et les caractéristiques d’un logiciel comptable. Et présenter le   logiciel Banana Comptabilité.    |    Travail en groupe    |    60 min.    |  |
@@ -73,8 +72,8 @@ Il est idéal pour les agents économiques (entreprises, fiduciaires, profession
 N.B : Le logiciel banana est utilisé comme Microsoft Office Excel, mais sans devoir insérer des formules
 Les graphiques ressemblent beaucoup à Excel, mais le logiciel Banana vous donne l'avantage de ne pas devoir insérer des formules. Très abordable, il vous offre aussi la possibilité de copier, couper, coller et corriger les données à tout moment.
 Lorsque vous saisissez des données, les totaux de tous les tableaux sont mis à jour automatiquement. Sur la base des données insérées, Banana crée immédiatement le bilan, le compte de résultat, les relevés de TVA et de nombreux autres rapports.
-4.	Présentation du Logiciel Banana Comptabilité
-a.	Lancement du logiciel Banana Comptabilité
+## 4.	Présentation du Logiciel Banana Comptabilité
+### a.	Lancement du logiciel Banana Comptabilité
 Comme tout autre logiciel, le lancement de Banana Comptabilité 9 requiert en amont son installation sur la machine de l’utilisateur.
 Installation du logiciel Banana Comptabilité 9 sur Windows
 Pour installer le programme c’est très simple, grâce à la fonction d'auto installation. En téléchargeant le programme, vous acceptez les Conditions de licence. Une fois effectué le download (téléchargement), faites un double clic sur le fichier téléchargé.
