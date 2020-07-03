@@ -72,4 +72,5 @@ Comme tout autre logiciel, le lancement de Banana Comptabilité 9 requiert en am
 Installation du logiciel Banana Comptabilité 9 sur Windows
 Pour installer le programme c’est très simple, grâce à la fonction d'auto installation. En téléchargeant le programme, vous acceptez les Conditions de licence. Une fois effectué le download (téléchargement), faites un double clic sur le fichier téléchargé.
 ![logo_images](/images/DOC1_fr.jpg) 
+
 Le programme propose d'enregistrer dans le dossier C:\Program Files\Banana90. Si l'on veut enregistrer dans un autre dossier, cliquer sur le bouton Parcourir et choisir le parcours.
