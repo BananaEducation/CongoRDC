@@ -22,3 +22,22 @@ Nous exprimons plus particulièrement notre profonde gratitude aux personnes qui
 |     9     |     MBUYI NDAYE Jean                |     INFORMATICIEN                        |     SERNAFOR TECHNIQUE     |     +243814412756    |
 |     10    |     KANKU MABILA Jean-Paul          |     ENSEIG/INFORMATICIEN                 |     INSTITUT LUMUMBA II    |     +243822594654    
 
+# Thème : Utilisation du logiciel comptable banana comptabilité
+## Activité 1 : Approche introductive
+### A.	Fiche pédagogique
+#### 1.	Objectifs spécifiques :
+Au terme de cette activité, le participant sera capable de :
+* Définir un logiciel comptable ;
+* Donner l’importance et les caractéristiques d’un logiciel comptable ;
+* Présenter le logiciel Banana Comptabilité.
+#### 2.	Supports :
+* OHADA, Acte uniforme relatif au droit comptable et à l’information financière et système comptable OHADA, YAOUNDE le 15/02/2017 ;
+*  	Guide d’application OHADA ;
+* EPSP, DIPROMAD, Curriculum des Humanités Techniques Commerciales, Commerciale et Gestion, Kinshasa 2014 ;
+* SERNAFOR Technique, module de formation sur le système comptable OHADA niveau 4, 2018 ; 
+* [Documentation](www.banana.ch/fr/documentation)
+#### 3.	Méthodes et techniques : Exposé, discussion dirigée, brainstorming et travail de groupe.
+#### 4.	Durée : 120 minutes
+#### 5.	Déroulement de l’activité :
+
+
