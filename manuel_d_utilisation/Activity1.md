@@ -1,18 +1,19 @@
 Contenu:
 
 * [A. Fiche Pédagogique](#A-fiche-pédagogique)
-* [B.]()
+* [B. Fiche Technique](#B-fiche-technique)
 
 ## **Activité 1 : Approche introductive**
 
 
 ### A. **Fiche Pédagogique** 
 
+
 1.  **Objectifs spécifiques** :
 
 Au terme de cette activité, le participant sera capable de :
 
--   Définir un logiciel comptable ;
+- Définir un logiciel comptable ;
 
 -   Donner l'importance et les caractéristiques d'un logiciel comptable ;
 
@@ -37,4 +38,19 @@ Au terme de cette activité, le participant sera capable de :
 
 5.  **Déroulement de l'activité** :
 
-![Tableau du déroulement de l'activité](C:\Users\joemb\BananaEducation\CongoRDC\manuel_d_utilisation\images\Activity1A_1.png)
+![Tableau du déroulement de l'activité](\images\Activity1A_1.png)
+
+
+| **N°** | **Tâches**                                                                                                                                                                     | **Méthodes et Techniques** | **Durée** |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- | --------- |
+| 1      | Présenter l’activité et ses objectifs                                                                                                                                          | Exposé                     | 5 min.    |
+| 2      | Définir des concepts de base : logiciel, logiciel comptable                                                                                                                    | Brainstorming              | 15 min.   |
+| 3      | Constituer des sous-groupes pour : donner l’importance et les caractéristiques d’un logiciel comptable. Et présenter le logiciel Banana Comptabilité.                          | Travail en groupe          | 60 min.   |
+| 4      | En plénière : le rapporteur de chaque sous-groupe présente la production de son équipe suivie de mise en commun avec les membres des autre sous-groupes et du facilitateur.    | Discussion dirigée         | 30 min.   |
+| 5      | Questions de synthèse<ul><li>Donner l'importance d'un logiciel comptable</li><li>Citer les caractéristiques d'un logiciel comptable</li><li>Comment lancer le logiciel Banana Comptabilité.</li></ul>  |Discussion dirigée   | 10 min.
+
+
+
+### B. **Fiche Technique**
+
+1. Définition des concepts de base
