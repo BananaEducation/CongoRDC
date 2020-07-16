@@ -38,7 +38,7 @@ Au terme de cette activité, le participant sera capable de :
 
 5.  **Déroulement de l'activité** :
 
-![Tableau du déroulement de l'activité](\images\Activity1A_1.png)
+![Tableau du déroulement de l'activité](/images/Activity1A_1.png)
 
 
 | **N°** | **Tâches**                                                                                                                                                                     | **Méthodes et Techniques** | **Durée** |
