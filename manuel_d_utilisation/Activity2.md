@@ -36,7 +36,7 @@ Au terme de cette activité, le participant sera capable de (d') :
 
 -   SERNAFOR Technique, module de formation sur le système comptable OHADA niveau 4, 2018 ;
 
--   [La documentation du logiciel Banana](www.banana.ch/fr/documentation)
+-   [La documentation du logiciel Banana](https://www.banana.ch/fr/documentation)
 
 #### 3.  **Méthodes et techniques** :
 

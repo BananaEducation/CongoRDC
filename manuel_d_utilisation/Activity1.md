@@ -38,7 +38,7 @@ Au terme de cette activité, le participant sera capable de :
 
 -   SERNAFOR Technique, module de formation sur le système comptable OHADA niveau 4, 2018 ;
 
--   [La documentation du logiciel Banana](www.banana.ch/fr/documentation)
+-   [La documentation du logiciel Banana](https://www.banana.ch/fr/documentation)
 
 #### 3.  **Méthodes et techniques** : 
 
@@ -190,7 +190,7 @@ Pour créer un nouveau fichier :
 La fenêtre qui apparaît vous donne la possibilité de créer un nouveau
 fichier de trois (3) façons différentes :
 
--   À partir d'un des modèles préconfigurés dans le site internet du logiciel ([www.banana.ch/fr](http://www.banana.ch/fr)) ;
+-   À partir d'un des modèles préconfigurés dans le site internet du logiciel ([www.banana.ch/fr](https://www.banana.ch/fr)) ;
 
 -   En copiant les données d\'un fichier existant (lorsque vous disposez d'un fichier banana) ;
 
