@@ -1,3 +1,5 @@
+## **Activité 1 : Approche introductive**
+
 Contenu:
 
 * [A. Fiche Pédagogique](#A-fiche-pédagogique)
@@ -11,8 +13,6 @@ Contenu:
     - [2. Importance du logiciel comptable](#2-importance-du-logiciel-comptable)
     - [3. Caractéristiques du logiciel Banana Comptabilité](#3-caractéristiques-du-logiciel-banana-comptabilité)
     - [4. Présentation du Logiciel Banana Comptabilité](#4-présentation-du-logiciel-banana-comptabilité)
-
-## **Activité 1 : Approche introductive**
 
 
 ### A. **Fiche Pédagogique** 
@@ -175,7 +175,7 @@ Cliquer sur Banana Comptabilité 9.0
 
 Il sied de signaler que lors de l'installation, l'icône du logiciel apparaît automatiquement sur le bureau de l'ordinateur de l'utilisateur. De ce qui précède, il suffit faire un double clic pour lancer le logiciel.
 
-![Installation de Banana](images/activity1b_5.jpg)
+![Démarrage du logiciel Banana](images/activity1b_5.jpg)
 
 ##### b. Créer un nouveau document Banana Comptabilité
 
@@ -195,3 +195,110 @@ fichier de trois (3) façons différentes :
 -   En copiant les données d\'un fichier existant (lorsque vous disposez d'un fichier banana) ;
 
 -   À partir d\'un nouveau fichier vide commencez par l\'un de nos  modèles adaptés à votre entreprise.
+
+![Démarrage du logiciel Banana](images/activity1b_6.jpg)
+
+1. **Créer un fichier à partir d'un modèle préconfiguré**
+
+Pour créer un nouveau fichier à partir d'un des modèles existants, vous
+devez procéder de la manière suivante :
+
+-   Menu **Fichier** ; commande **Nouveau** ;
+
+-   Choisissez le pays et la langue dans **Région** ;
+
+-   Sélectionnez une **catégorie** et le **type** de comptabilité ;
+
+-   Dans la liste des modèles de la boîte de dialogue, sélectionnez le modèle qui convient le mieux à vos besoins.
+
+En cliquant sur le fichier, il s'ouvre automatiquement et peut être
+sauvegardé avec un nom de fichier.
+
+Veillez au préalable à la configuration du tableau **code TVA** avant
+d'utiliser les fichiers avec options TVA. Cette configuration permettra
+de générer automatiquement le montant de la TVA. Le plan comptable peut
+être adapté à vos besoins (changer la description du compte, insérer ou
+supprimer des groupes, des sous-groupes, etc.).
+
+Il existe, dans le logiciel Banana Comptabilité 9 de nombreux modèles
+adaptés à toutes les formes et activités juridiques. Une fois le modèle
+ouvert dans Banana, enregistrez le nom du fichier en cliquant sur la
+commande **Enregistrer sous** du menu **Fichier** :
+
+-   Sélectionnez le dossier de destination Il peut être utile de créer
+    un dossier séparé pour la comptabilité et différent également pour
+    chaque année afin que vous puissiez y conserver non seulement le
+    fichier comptable mais aussi les documents relatifs à cette année.
+
+-   Donnez un nom au fichier contenant le nom de la société et
+    l'exercice comptable, par exemple société_Banduki_2018. Le
+    programme ajoute l'extension ".ac2" qui distingue les fichiers
+    Banana.
+
+Après avoir ouvert un des modèles préconfigurés, il faudrait
+généralement l'adapter en modifiant : les **Propriétés du fichier**
+(en-tête ainsi que la période comptable et l'adresse) puis procéder avec
+l'adaptation du **Plan des comptes** en insérant vos propres comptes
+bancaires, insérer ou modifier vos comptes selon vos exigences. Ceci
+peut aussi être fait par la suite, selon les besoins qui se présentent.
+
+
+2. **Commencer à partir d'un fichier existant**
+
+Il existe plusieurs façons de copier les données :
+
+-   Ouvrez le fichier à utiliser comme modèle à l'aide du bouton **Parcourir** et indiquez le chemin d'accès au fichier.
+
+-   Créez une copie du fichier ouvert à l'aide de la commande **Enregistrer sous** du menu **Fichier** ou bien, créez une copie du fichier ouvert à partir du menu **outils**, tapez sur la commande **Créer copie fichier**, la fenêtre suivante apparaîtra, vous permettant de choisir les données à conserver. Si aucune des trois options n'est activée, un fichier est créé uniquement avec le plan comptable.
+
+![Ouverture d'un nouveau fichier](images/activity1b_7.jpg)
+
+-   **Enregistrer le fichier** dans le dossier où vous désirez tenir les données (en général, dans le dossier Documents). Indiquer le nom de l'entreprise et l'année comptable dans le nom du fichier, par exemple "entreprise LACOM Congolaise 2020.ac2".
+
+-   Si vous reprenez des comptes existants, saisissez les soldes d'ouverture dans la colonne **Ouverture**. Si vous utilisez un système comptable multidevise, mettez à jour les taux d'ouverture.
+
+
+3. **Commencer à partir d'un fichier vide**
+
+Comme il s'agit de commencer un fichier à partir de zéro, il est donc
+nécessaire de définir les données comptables de base et l'ensemble du
+plan comptable.
+
+-   Menu **Fichier**, commande **Nouveau** ;
+
+-   Cliquez sur la case **Créer fichier vide** ;
+
+-   Choisissez votre langue ;
+
+-   Sélectionner le type de système comptable (comptabilité Recettes/Dépenses, en partie double, avec ou sans TVA, avec ou sans Multidevises, ou une nouvelle parmi les divers) ;
+
+![Ouverture nouveau fichier](images/activity1b_8.jpg)
+![Ouverture nouveau fichier](images/activity1b_9.jpg)
+
+-   Configurer les Paramètres pour création nouveau fichier
+
+-   Configurer les Propriétés fichier (Données de base)  en fonction des onglets ci-après :
+
+    -   Comptabilité ;
+
+    -   Options ;
+
+    -   Adresse ;
+
+    -   Divers ;
+
+    -   Mot de passe ;
+
+    -   Texte.
+
+-   Enregistrer sous.... (Donner un nom) Créez la structure du plan comptable.
+
+##### c. Les parties de la fenêtre Banana Comptabilité
+
+-   Barre de titre : elle reprend le nom du logiciel et fichier à gauche et à droite, elle termine par trois bouton (réduire, agrandir et fermer) ;
+
+-   Les menus : fichier, édition, données, outils, compta 1, compta 2, App, fenêtre.
+
+-   Barre des outils d'accès rapide : elle reprend quelques boutons des menus qui sont indispensable pour quelques utilisations.
+
+![parties de la Banana Compta](images/activity1b_10.jpg)
