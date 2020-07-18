@@ -111,54 +111,235 @@ Le plan des comptes offre ainsi une vision immédiate et complète de votre situ
 En ce qui concerne la configuration du plan de comptes OHADA, nous nous référons aux structures des tableaux de correspondance postes/comptes, le plan de comptes OHADA, le plan de comptes général OHADA ainsi qu'aux modèles des Etats financiers (bilan, compte de résultats, tableau de flux de trésorerie) ci-après :
 
 ![Comptes du système normal](images/activity2b_4.jpg)
+</br>
+</br>
+</br>
 
 ![Comptes du système normal](images/activity2b_5.jpg)
+</br>
+</br>
+</br>
 
-![Modèle bilan](images/activity2b_6.jpg)
+![Modèle bilan actif](images/activity2b_6.jpg)
+
+</br>
+</br>
+</br>
+
+![Modèle bilan passif](images/activity2b_7.jpg)
+
+</br>
+</br>
+</br>
+
+![Modèle compte de résultat](images/activity2b_8.jpg)
+
+</br>
+</br>
+</br>
+
+![Modèle tableau de flux de trésorerie](images/activity2b_9.jpg)
+
+</br>
+</br>
+</br>
+
+##### 4.1 Les groupes du plan de comptes OHADA
+
+Il sied de signaler que les références des tableaux de correspondance constituent les groupes qui servent à la configuration du plan de comptes OHADA.
+
+##### 4.1.1 Configuration de l'actif du bilan
+
+En nous référent au groupe **AE**, suivant le modèle du tableau de correspondance et du bilan ci-dessous :
+
+![Groupe AE](images/activity2b_10.jpg)
+
+Désignons :
+
+-   Brut par **AE-1.**
+
+-   Amortissement/Dépréciation par **AE-2** ;
+
+-   Net par **AE**
+
+Donc, le Net (AE) = Brut (AE-1) -- Amort/Dép (AE-2) : disposition
+horizontale (voir modèle bilan)
+
+![Disposition verticale](images/activity2b_11.jpg)
+
+**N.B.** : La configuration du plan de comptes modèle OHADA sous le logiciel Banana suit la disposition verticale telle qu'indiquée dans la formule ci-haut.
+
+Le tableau ci-dessous indique en quelques lignes, la configuration de l'actif du bilan du plan de comptes selon le modèle OHADA.
+
+**Extrait du plan de comptes selon le modèle OHADA (actif)**
+
+|     Section       |     Groupe    |     Compte                                      |     Libellé                                                                             |     BClasse                   |     Gr      |     Ouverture     CDF    |     Débit     CDF    |     Crédit     CDF    |     Solde     CDF    |     Précédente     CDF    |          |
+|-------------------|---------------|-------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------|-------------|--------------------------|----------------------|-----------------------|----------------------|---------------------------|----------|
+|     *             |               |                                                 |     Bilan                                                                               |                               |             |                          |                      |                       |                      |                           |          |
+|     1             |               |                                                 |     Actif                                                                               |                               |             |                          |                      |                       |                      |                           |          |
+|                   |               |                      211000                     |       211000                                                                            |     Frais de Développement    |     1       |     AE-1                 |                      |                       |                      |                           |          |
+|       211000      |               |                                                 |                                                                                         |                               |             |                          |                      |                       |                      |                           |          |
+|                   |               |     218100                                      |     Frais de Prospection Et   D'évaluation De Ressources Minérales                      |     1                         |     AE-1    |                          |                      |                       |                      |                           |          |
+|                   |               |     219100                                      |     Frais de Recherche Et   De Développement                                            |     1                         |     AE-1    |                          |                      |                       |                      |                           |          |
+|                   |     AE-1      |                                                 |     Frais de   Développement et de Prospection Brut                                     |                               |     AE      |                          |                      |                       |                      |                           |          |
+|                   |               |     281100                                      |     Amortissement   Des Frais De Développent                                            |     1                         |     AE-2    |                          |                      |                       |                      |                           |          |
+|                   |               |     291100                                      |     Dépréciations   Des Frais De Développement                                          |     1                         |     AE-2    |                          |                      |                       |                      |                           |          |
+|                   |     AE-2      |                                                 |     Amort   & Dépréciation des Frais De Développement                                   |                               |     AE      |                          |                      |                       |                      |                           |          |
+|                   |     AE        |                                                 |     Frais De Développement   et de Prospection Net                                      |                               |     AD      |                          |                      |                       |                      |                           |          |
+|                   |     AF-1      |                                                 |     Brevets,   Licences, Concessions Et Droits Similaires                               |                               |     AF      |                          |                      |                       |                      |                           |          |
+|                   |     AF-2      |                                                 |     Amort.   & Dépréciations Des Brevets, Licences, Concessions Et Droits Similaires    |                               |     AF      |                          |                      |                       |                      |                           |          |
+|                   |     AF        |                                                 |     Brevets,   Licences, Concessions Et Droits Similaires Net                           |                               |     AD      |                          |                      |                       |                      |                           |          |
+|                   |     AG-1      |                                                 |     Fonds   Commercial Et Droit Au Bail                                                 |                               |     AG      |                          |                      |                       |                      |                           |          |
+|                   |     AG-2      |                                                 |     Amortissement   / Dépréciation Des Fonds Commercial                                 |                               |     AG      |                          |                      |                       |                      |                           |          |
+|                   |     AG        |                                                 |     Fonds   Commercial Et Droit Au Bail Net                                             |                               |     AD      |                          |                      |                       |                      |                           |          |
+|                   |     AH-1      |                                                 |     Autres   Immobilisations Incorporelles Brut                                         |                               |     AH      |                          |                      |                       |                      |                           |          |
+|                   |     AH-2      |                                                 |     Dépréciations/   Amortissement Des Autres Immobilisations Incorporelles             |                               |     AH      |                          |                      |                       |                      |                           |          |
+|                   |     AH        |                                                 |     Autres   Immobilisations Incorporelles Net                                          |                               |     AD      |                          |                      |                       |                      |                           |          |
+|                   |     AD        |                                                 |     Immobilisation   Incorporelles Net                                                  |                               |     AZ      |                          |                      |                       |                      |                           |          |
 
 
-| **MODELE (BILAN ACTIF)**                             |
-|----------------------------------------------------------------|
-|                                                                |
-|Désignation entité:.................. Exercice clos le 31/12/........|
-|Numéro d'identification:............. Durée (en mois)................|
-|                                                                     |
-|BILAN AU 31 DÉCEMBRE N                                             |
+La logique ci-dessus doit être utilisée pour tous les groupes de l'actif à l'exception du groupe BU
 
-| **REF**  | **ACTIF**                                          | **Note** | **EXERCICE au 31/12.N** | **EXERCICE AU 31/12/N-1** |
-| -------- | -------------------------------------------------- | -------- | ----------------------- | ------------------------- |
-|  |                                |   | **BRUT**| **AMORT et DEPREC.**|**NET**|**NET**                 |
-| **AD**   | **IMMOBILISATIONS INCORPORELLES**                  | **3**    |                         |                           |  |  |
-| AE       | Frais de développement et de prospection           |          |                         |                           |  |  |
-| AF       | Brevets, licences, logiciels, et droits similaires |          |                         |                           |  |  |
-| AG       | Fonds commercial et droit au bail                  |          |                         |                           |  |  |
-| AH       | Autres immobilisations incorporelles               |          |                         |                           |  |  |
-| **AI**   | **IMMOBILISATIONS CORPORELLES**                    | **3**    |                         |                           |  |  |
-| AJ       | Terrains (1) (1) dont Placements en Net ………/……     |          |                         |                           |  |  |
-| AK       | Bâtiments (1) dont Placement en Net…………/……         |          |                         |                           |  |  |
-| AL       | Aménagements, agencements et installations         |          |                         |                           |  |  |
-| AM       | Matériel, mobilier et actifs biologiques           |          |                         |                           |  |  |
-| AN       | Matériel de transport                              |          |                         |                           |  |  |
-| AP       | Avance et acomptes versés sur immobilisations      | 3        |                         |                           |  |  |
-| **AQ**   | **IMMOBILISATIONS FINANCIERES**                    | **4**    |                         |                           |  |  |
-| AR       | Titres de participation                            |          |                         |                           |  |  |
-| AS       | Autres immobilisations financières                 |          |                         |                           |  |  |
-| **AZ**   | **TOTAL ACTIF IMMOBILISE**                         |          |                         |                           |  |  |
-| BA       | ACTIF CIRCULANT HAO                                | 5        |                         |                           |  |  |
-| BB       | STOCKS ET ENCOURS                                  | 6        |                         |                           |  |  |
-| BG       | CREANCES ET EMPLOIS ASSIMILES                      |          |                         |                           |  |  |
-| BH       | Fournisseurs avances versées                       | 17       |                         |                           |  |  |
-| BI       | Clients                                            | 7        |                         |                           |  |  |
-| BJ       | Autres créances                                    | 8        |                         |                           |  |  |
-| **BK**   | **TOTAL ACTIF CIRCULANT**                          |          |                         |                           |  |  |
-| BQ       | Titres de placement                                | 9        |                         |                           |  |  |
-| BR       | Valeurs à encaisser                                | 10       |                         |                           |  |  |
-| BS       | Banques, chèques postaux, caisse et assimilés      | 11       |                         |                           |  |  |
-| **BT**   | **TOTAL TRESORERIE-ACTIF**                         |          |                         |                           |  |  |
-| BU       | Ecart de conversion-Actif                          | 12       |                         |                           |  |  |
-| **BZ**   | **TOTAL GENERAL**                                  |          |                         |                           |  |  |
+##### 4.1.2 Configuration du passif du bilan
+
+La configuration du passif est simple et pratique. Il est question de suivre les références du tableau de correspondance.
+
+![Configuration passif du bilan](images/activity2b_12.jpg)
+
+**Extrait du plan de comptes selon le modèle OHADA (passif)**
+
+|     Section    |     Groupe    |     Compte    |     Libellé                           |     BClasse    |     Gr    |     Ouverture     CDF    |     Débit     CDF    |     Crédit     CDF    |     Solde     CDF    |     Précédente     CDF    |
+|----------------|---------------|---------------|---------------------------------------|----------------|-----------|--------------------------|----------------------|-----------------------|----------------------|---------------------------|
+|     2          |               |               |     Passif                            |                |           |                          |                      |                       |                      |                           |
+|                |               |     101000    |     Capital   Social                  |     2          |     CA    |                          |                      |                       |                      |                           |
+|                |               |     101100    |     Capital   Souscrit, Non Appelé    |     2          |     CA    |                          |                      |                       |                      |                           |
+|                |     CA        |               |     Capital                           |                |     CP    |                          |                      |                       |                      |                           |
+
+La logique ci-dessus doit être utilisée pour le reste des groupes du passif.
+
+##### 4.1.3 Configuration du compte de résultat
+
+La configuration du compte de résultat est simple et pratique. Il est question de suivre les références du tableau de correspondance.
+
+**Extrait du compte de résultat selon le modèle OHADA**
+
+|     Section    |     Groupe    |     Compte    |     Libellé                                       |     BClasse    |     Gr     |     Ouverture     CDF    |     Débit     CDF    |     Crédit     CDF    |     Solde     CDF    |     Précédente     CDF    |
+|----------------|---------------|---------------|---------------------------------------------------|----------------|------------|--------------------------|----------------------|-----------------------|----------------------|---------------------------|
+|     *          |               |               |     Compte De Résultat                            |                |            |                          |                      |                       |                      |                           |
+|     4          |               |               |     Soldes   significatifs                        |                |            |                          |                      |                       |                      |                           |
+|                |               |     701100    |     Ventes De Marchandises Dans La Région         |     4          |     TA     |                          |                      |                       |                      |                           |
+|                |               |     701900    |     Rabais, Remises, Ristournes Accordes          |     4          |     TA     |                          |                      |                       |                      |                           |
+|                |     TA        |               |     Ventes De Marchandises                        |                |     132    |                          |                      |                       |                      |                           |
+|                |               |     601100    |     Achats De Marchandises Dans La Région         |     3          |     RA     |                          |                      |                       |                      |                           |
+|                |               |     601510    |     Frais de Transports sur achat Marchandises    |     3          |     RA     |                          |                      |                       |                      |                           |
+|                |     RA        |               |     Achats De Marchandises                        |                |     132    |                          |                      |                       |                      |                           |
+
+La logique ci-dessus doit être utilisée pour le reste des groupes du compte de résultat.
+
+Pour avoir le plan de comptes modèle OHADA complet, prière de le
+télécharger au lien :
+<https://www.banana.ch/apps/fr?combine=&langcode=All&country=307>
 
 
+**Observations**: Il convient de souligner que les groupes en bleu ne font pas partie des références du tableau de correspondance de postes/comptes OHADA mais sont des groupes intermédiaires servant pour l'élaboration automatique du tableau de flux de trésorerie.
+
+#### 5. Procédure du système de totalisation
+
+Le système de totalisation est très flexible :
+
+-   Dans un groupe, il est possible d\'additionner autant des comptes que des groupes
+
+|     Section       |     Groupe    |     Compte                                                                      |     Libellé                                                           |     BClasse    |     Gr      |     Ouverture     CDF         |     Débit     CDF    |     Crédit     CDF    |     Solde     CDF    |     Précédente     CDF    |
+|-------------------|---------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------|----------------|-------------|-------------------------------|----------------------|-----------------------|----------------------|---------------------------|
+|     *             |               |                                                                                 |     Bilan                                                             |                |             |                               |                      |                       |                      |                           |
+|     1             |               |                                                                                 |     Actif                                                             |                |             |                               |                      |                       |                      |                           |
+|                   |               |                      211000                                                     |       211000                                                          |                |             |     Frais de Développement    |     1                |     AE-1              |                      |                           |
+|       211000      |               |                                                                                 |                                                                       |                |             |                               |                      |                       |                      |                           |
+|                   |               |                                                                                 |                                                                       |                |             |                               |                      |                       |                      |                           |
+|                   |               |                                                                                 |                                                                       |                |             |                               |                      |                       |                      |                           |
+|                   |               |     218100                                                                      |     Frais de Prospection Et   D'évaluation De Ressources Minérales    |     1          |     AE-1    |                               |                      |                       |                      |                           |
+|                   |               |     219100                                                                      |     Frais de Recherche Et   De Développement                          |     1          |     AE-1    |                               |                      |                       |                      |                           |
+|                   |     AE-1      |                                                                                 |     Frais de   Développement et de Prospection Brut                   |                |     AE      |                               |                      |                       |                      |                           |
+|                   |               |     281100                                                                      |     Amortissement   Des Frais De Développent                          |     1          |     AE-2    |                               |                      |                       |                      |                           |
+|                   |               |     291100                                                                      |     Dépréciations   Des Frais De Développement                        |     1          |     AE-2    |                               |                      |                       |                      |                           |
+|                   |     AE-2      |                                                                                 |     Amort   & Dépréciation des Frais De Développement                 |                |     AE      |                               |                      |                       |                      |                           |
+|                   |     AE        |                                                                                 |     Frais De   Développement et de Prospection Net                    |                |     AD      |                               |                      |                       |                      |                           |
+
+-   Les comptes (211000, 218100 et 219100) sont additionnés dans le groupe AE-1 et les comptes (281100 et 291100) sont additionnés dans le groupe AE-2 et ces deux groupes sont additionnés dans le groupe AE
+
+-   On peut utiliser n\'importe quel genre de numérotation
+
+-   On peut créer jusqu\'à 100 niveaux de totalisation
+
+-   La totalisation est indépendante de la séquence : 
+
+    -   La ligne de total peut être positionnée après la ligne
+
+    -   La ligne de total peut être positionnée avant la ligne
+
+    -   La ligne de total peut être positionnée dans une position
+        complètement détachée ; ceci sert à créer des registres.
+
+-   Le compte et les Groupes peuvent être totalisés dans un seul autre Groupe. Le même compte ne peut être totalisé simultanément dans deux Groupes.
+
+#### 5.1 Totalisation des colonnes Montant
+
+La procédure de calcul additionne les colonnes Type Montant :
+
+-   Sont totalisées les colonnes Montant définies par le système ;
+
+-   Sont totalisées les colonnes Montant ajoutées par l'utilisateur.
+
+#### 5.2 La séquence de Calcul
+
+Le programme calcule les totaux comme suit :
+
+-   Remet à zéro les valeurs des colonnes Montant des lignes de Groupe ;
+
+-   Additionne les montants des lignes des Comptes dans les lignes de Groupe (premier niveau de calcul).
+
+-   Additionne le solde des lignes des Groupes dans les Groupes de niveau supérieur. Il convient de Répéter l'opération jusqu'à ce que tous les niveaux soient calculés
 
 
+#### 6. Ajouter / Renommer
+
+#### 6.1 Ajouter un nouveau compte ou catégorie
+
+-   Se positionner dans la ligne précédente à celle où le nouveau compte ou catégorie sera inséré ;
+
+-   Ajouter une ligne avec la commande **Édition ->**[Ajouter  lignes](https://www.banana.ch/doc9/fr/node/2848#1) ;
+
+-   Dans les colonnes respectives, insérer le numéro de compte, le libellé, la B classe (1 pour les Actifs, 2 pour les Passifs, 3 pour les charges, et 4 pour les Produits), le numéro de **Gr** qui doit être égal à celui qui a été inséré pour les comptes qui appartiennent au même Groupe.
+
+**Attention** : Si on insère une écriture avec un compte inexistant, un message d\'erreur apparaît (compte non trouvé). Pour corriger l'erreur, ajouter ce compte dans le plan de compte. Il est nécessaire de recontrôler la comptabilité avec la touche **Maj. + F9**, ou à partir du menu **Compta1**, commande [Recontrôler comptabilité](https://www.banana.ch/doc9/fr/node/3973).
+
+
+#### 6.2 Ajouter un nouveau groupe
+
+-   Se positionner dans la ligne précédente à celle où le nouveau groupe sera inséré ;
+
+-   Ajouter une ligne avec la commande **Édition ->**[Ajouter lignes](https://www.banana.ch/doc9/fr/node/2848#1) ;
+
+-   Dans la colonne Groupe, insérer le numéro de groupe, le libellé et le numéro de Gr où l'on désire que ce groupe soit totalisé.
+
+#### 6.3 Renommer un compte ou un groupe
+
+-   Se positionner sur la colonne **Compte** ou **Groupe** du tableau **Comptes**, ou sur la colonne **Catégories** du tableau **Catégories** (ou sur la colonne **Code TVA** du tableau **Codes TVA**) ;
+
+-   Cliquer sur la commande **Données ->** [Renommer](https://www.banana.ch/doc9/fr/node/3008) ;
+
+-   Indiquer le nouveau numéro de compte ou de groupe, de catégorie ou le nouveau Code TVA.
+
+Le programme met automatiquement le tableau **Écritures** à jour avec le nouveau numéro ou code.
+
+
+#### 7. Supprimer un compte, un groupe ou une catégorie
+
+-   Se positionner sur la ligne que l'on veut éliminer
+
+-   Donner la commande **Édition** -> **Supprimer lignes**
+
+-   Confirmer le nombre de lignes que l'on veut éliminer
+
+Après avoir éliminé un compte, un groupe, ou une catégorie, il est nécessaire de recontrôler la comptabilité (touche **Maj.+F9**, ou à partir du menu **Compta1**, commande [Recontrôler comptabilité](https://www.banana.ch/doc9/fr/node/3973)). Le programme signale si le compte, le groupe ou la catégorie qui a été éliminé était utilisé dans les écritures.
 
