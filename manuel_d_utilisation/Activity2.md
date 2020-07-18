@@ -114,6 +114,8 @@ En ce qui concerne la configuration du plan de comptes OHADA, nous nous référo
 
 ![Comptes du système normal](images/activity2b_5.jpg)
 
+![Modèle bilan](images/activity2b_6.jpg)
+
 
 | **MODELE (BILAN ACTIF)**                             |
 |----------------------------------------------------------------|
@@ -157,46 +159,6 @@ En ce qui concerne la configuration du plan de comptes OHADA, nous nous référo
 | **BZ**   | **TOTAL GENERAL**                                  |          |                         |                           |  |  |
 
 
-
-| MODELE \(BILAN ACTIF\)                       |
-|----------------------------------------------|
-|                                              |                                                    |       |                                      |                        |     |     |
-| Désignation entité: …………………………………………………      |                                                    |       | Exercice clos le 31/12/………………………………… |
-| Numéro d'identification: ………………………………………\.\. |                                                    |       | Durée \(en mois\)……………………………………………   |
-|                                              |                                                    |       |                                      |                        |     |     |
-| BILAN AU 31 DECEMBRE N                       |
-|                                              |                                                    |       |                                      |                        |     |     |
-| REF                                          | ACTIF                                              | Note  | EXERCICE au 31/12\.N                 | EXERCICE AU 31/12/N\-1 |
-|                                              |                                                    |       | BRUT                                 | AMORT et DEPREC\.      | NET | NET |
-| AD                                           | IMMOBILISATIONS INCORPORELLES                      | 3     |                                      |                        |     |     |
-| AE                                           | Frais de développement et de prospection           |       |                                      |                        |     |     |
-| AF                                           | Brevets, licences, logiciels, et droits similaires |       |                                      |                        |     |     |
-| AG                                           | Fonds commercial et droit au bail                  |       |                                      |                        |     |     |
-| AH                                           | Autres immobilisations incorporelles               |       |                                      |                        |     |     |
-| AI                                           | IMMOBILISATIONS CORPORELLES                        | 3     |                                      |                        |     |     |
-| AJ                                           | Terrains \(1\) \(1\) dont Placements en Net ………/…… |       |                                      |                        |     |     |
-| AK                                           | Bâtiments \(1\) dont Placement en Net…………/……       |       |                                      |                        |     |     |
-| AL                                           | Aménagements, agencements et installations         |       |                                      |                        |     |     |
-| AM                                           | Matériel, mobilier et actifs biologiques           |       |                                      |                        |     |     |
-| AN                                           | Matériel de transport                              |       |                                      |                        |     |     |
-| AP                                           | Avance et acomptes versés sur immobilisations      | 3     |                                      |                        |     |     |
-| AQ                                           | IMMOBILISATIONS FINANCIERES                        | 4     |                                      |                        |     |     |
-| AR                                           | Titres de participation                            |       |                                      |                        |     |     |
-| AS                                           | Autres immobilisations financières                 |       |                                      |                        |     |     |
-| AZ                                           | TOTAL ACTIF IMMOBILISE                             |       |                                      |                        |     |     |
-| BA                                           | ACTIF CIRCULANT HAO                                | 5     |                                      |                        |     |     |
-| BB                                           | STOCKS ET ENCOURS                                  | 6     |                                      |                        |     |     |
-| BG                                           | CREANCES ET EMPLOIS ASSIMILES                      |       |                                      |                        |     |     |
-| BH                                           | Fournisseurs avances versées                       | 17    |                                      |                        |     |     |
-| BI                                           | Clients                                            | 7     |                                      |                        |     |     |
-| BJ                                           | Autres créances                                    | 8     |                                      |                        |     |     |
-| BK                                           | TOTAL ACTIF CIRCULANT                              |       |                                      |                        |     |     |
-| BQ                                           | Titres de placement                                | 9     |                                      |                        |     |     |
-| BR                                           | Valeurs à encaisser                                | 10    |                                      |                        |     |     |
-| BS                                           | Banques, chèques postaux, caisse et assimilés      | 11    |                                      |                        |     |     |
-| BT                                           | TOTAL TRESORERIE\-ACTIF                            |       |                                      |                        |     |     |
-| BU                                           | Ecart de conversion\-Actif                         | 12    |                                      |                        |     |     |
-| BZ                                           | TOTAL GENERAL                                      |       |                                      |                        |     |     |
 
 
 
