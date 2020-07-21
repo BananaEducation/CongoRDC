@@ -302,3 +302,151 @@ Quand les écritures avec TVA sont insérées, en appliquant le code TVA
 dans la colonne **Cod. TVA**, le programme calcule automatiquement tous
 les montants relatifs à la TVA et les transfère dans le compte TVA.
 
+##### 2.3 Comptabilité multidevise sans TVA
+
+La comptabilité multidevise est basée sur la méthode de la comptabilité
+en partie double, mais permet de gérer les comptes et mouvements en
+devise étrangère.
+
+a. **Caractéristiques**
+
+-   Gère aussi les comptes en devise étrangère ;
+
+-   Calcule automatiquement le change, selon le change inséré dans le
+    tableau Changes ;
+
+-   Calcule automatiquement les différences de change ;
+
+-   Bilans, Comptes de résultat et rapports également dans une deuxième
+    devise.
+
+Pour passer d'une comptabilité mono à une avec la multidevise, procède
+de la manière suivante :
+
+-   Aller dans la barre de menus puis cliquer sur outils ;
+
+-   Commande convertir fichier ;
+
+![convertir fichier](images/activity3b_8.jpg)
+
+La boite de dialogue ci-dessous apparaitra ; cliquer sur comptabilité en partie double avec multidevises.
+
+![enregistrer](images/activity3b_9.jpg)
+
+Enregistrer et indiquer le nom du nouveau fichier.
+
+b. **Plan comptable, Propriétés fichier et tableau Changes.**
+
+Il est conseillé de choisir un plan comptable, en partant d'un exemple
+de Banana Comptabilité déjà configuré et en le modifiant selon vos
+propres besoins. Il est fondamental que dans le plan comptable
+des **Comptes en devise étrangère** et des **Comptes pour le bénéfice et
+la perte de change** soient configurés.
+
+c. **Le plan comptable multidevise**
+
+Le plan des comptes de la comptabilité multidevise est le même que ceux
+de la comptabilité avec une seule devise, à l'exception des facteurs
+spécifiques indiqués ci-dessous.
+
+d. **Devise de base**
+
+Dans les **Propriétés fichier,** menu **Fichier**, vous devez définir la
+devise de base et dans le tableau Changes, il vous faut définir les
+devises étrangères.
+
+Dans l'exemple qui suit, la devise de base est le CDF qui, comme vous
+pouvez le voir, apparaît dans les en-têtes des colonnes avec les
+montants en devise de base.
+
+e. **Devise du compte**
+
+Chaque compte possède un sigle de devise, qui peut être celui de la
+devise de base, ou celui d'une devise étrangère, indiqué dans le
+tableau Changes.
+
+**Les comptes Actifs et Passifs, en plus de la devise de base peuvent être définis en plusieurs devises.**
+
+![comptes actifs](images/activity3b_10.jpg)
+
+**Les comptes des Charges et Produits en plus de la devise de base (dans l'exemple le CDF), peuvent être définis en plusieurs devises étrangères**
+
+![comptes actifs](images/activity3b_11.jpg)
+
+f. **Explication des colonnes de la Comptabilité multidevise**
+
+-   **Devise** : Insérez le sigle de la devise du compte. Pour les comptes en devise étrangère, le sigle doit être présent aussi dans le tableau Changes.
+
+-   **Ouverture Devise :** Pour chaque compte il faut insérer le solde initial, que ce soit un pour un compte en devise de base que pour un compte en devise étrangère.
+
+-   **Ouverture (devise de base)**: nous avons dans cette colonne :
+
+    - Colonne protégée utilisée par le programme ;
+    
+    - Le solde initial de la devise de base est calculé par le programme ;
+
+    - Pour les comptes en devise de base, le solde d'ouverture est celui de la colonne Ouverture devise ;
+
+    - Pour les comptes en devise étrangère, le solde présent dans la colonne Ouverture devise est reporté ici, converti selon le taux de change en vigueur dans le tableau de changes, dans la ligne sans date, colonne Ouverture.
+
+-   **Solde devise :**
+
+    - Colonne protégée utilisée par le programme ;
+
+    - Le solde provient du solde d'ouverture et de l'importation des écritures en devise de base et étrangères ; pour les comptes en devise étrangère, le solde est converti en devise de base selon les taux de change en vigueurs dans le tableau **Changes**.
+
+-   **Solde :**
+
+    - Colonne protégée utilisée par le programme ;
+
+    - Le solde est calculé par le programme et est le résultat de la somme du solde d'ouverture (pour les comptes en devise étrangère c'est le solde converti en devise de base) et de l'importation des écritures en devise de base et devise étrangère (montants convertis selon un taux de change, présent dans le tableau Changes).
+
+-   **Solde calculé**
+
+    - Colonne protégée utilisée par le programme ;
+
+    - C'est le solde en devise du compte converti au taux de changes actuel (taux de changes du tableau Changes de la ligne sans date) ;
+
+    - Dans cette colonne, les soldes des comptes en devise, convertis en devise de base peuvent différer de ceux de la colonne Solde, en raison des différences de change.
+
+-   **Les soldes d'ouverture**
+
+    - Avant d'insérer les soldes d'ouverture, il faut indiquer le change d'ouverture pour les différentes devises dans le tableau Changes. Le change d'ouverture est celui indiqué dans la colonne Change Ouverture dans la ligne de change sans date. Les changes d'ouverture doivent être égaux à ceux de la clôture de l'année précédente ;
+
+    - Les soldes d'ouverture doivent être insérés dans le tableau **Comptes**, colonne **Ouverture Devise**, vue **Base**, pour ceux qui se réfèrent à la devise de base ainsi que pour ceux en devise étrangère ;
+
+    - La colonne **Ouverture (**devise de base) est protégée. Le programme calcule automatiquement la contrevaleur en devise de base selon le change d'ouverture indiqué dans le tableau Changes ;
+
+    - Les soldes créditeurs doivent être insérés avec le signe moins (-) devant le montant ;
+
+    - Les soldes d'ouverture des actifs et des passifs doivent être en> équilibre. Il est conseillé de consulter la leçon suivante: **Contrôler la comptabilité**
+
+g. **Comptes gain et perte de change**
+
+Dans le plan comptable, il faut insérer les comptes prédéfinis pour le gain (bénéfice) et la perte de change, qui seront ensuite indiqués dans les **Propriétés fichier**.
+
+![gain et perte change](images/activity3b_12.jpg)
+
+Les comptes pour les différences de change doivent contenir la BClasse 3
+(Charges - pertes de change) ou 4 (Produits - gains de change).
+
+h. **Tableau Changes**
+
+Avant de commencer d'enregistrer des opérations multidevises, il faut
+d'abord spécifier les paramètres des devises utilisées pour la
+comptabilité, dans le tableau Changes.
+
+![tableau change](images/activity3b_13.jpg)
+
+i. **Explication des Colonnes du tableau Changes**
+
+Les colonnes sont visibles dans la Vue Complète.
+
+-   **Date :** La date du change : Nous avons ici 2 cas, à savoir :
+
+    - **Ligne change sans date** : Le taux de change actuel et d'ouverture. Pour chaque devise étrangère utilisée, il faut absolument avoir une ligne avec le taux de change et sans date : **le change** est celui qui est considéré le plus récent et aussi celui de la clôture. Il est utilisé pour le calcul de la colonne solde calculé dans le tableau des comptes et toujours s'il n'y a pas de taux de change historique tandis que le **change ouverture** est utilisé pour convertir le montant d'ouverture de la devise étrangère en celui de l'ouverture de la devise de base de la comptabilité.
+
+    - **Lignes change avec dates** **(taux de change historiques)**: Dans les cas indiqués ci-dessous le programme choisit le taux de change avec une date égale ou inférieure la plus proche de la date de la ligne d'écriture :
+
+
+
