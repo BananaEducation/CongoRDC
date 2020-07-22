@@ -448,5 +448,260 @@ Les colonnes sont visibles dans la Vue Complète.
 
     - **Lignes change avec dates** **(taux de change historiques)**: Dans les cas indiqués ci-dessous le programme choisit le taux de change avec une date égale ou inférieure la plus proche de la date de la ligne d'écriture :
 
+        - Quand l'on insère des écritures, si un compte historique existe, le programme le propose et l'utilise comme taux de change prédéfini ;
+
+        - Quand l'on crée des différences de change et qu'il est précisé qu'il faut utiliser le taux de change historique ;
+
+        - Dans les lignes avec date, le taux de change d'ouverture n'est pas utilisé.
+
+- **Devise de référence :** La devise de départ pour le change ou devise de base (le CDF dans l'exemple) ;
+
+- **Devise :** C'est la devise de destination, celle dans laquelle la valeur de la devise de référence est convertie ;
+
+- **Libellé :** Un texte pour spécifier précisément de quelle devise
+    étrangère il s'agit ;
+
+- **Fixe :** S'il s'agit d'un taux de change fixe,
+    insérer **Oui**dans la colonne ; dans ce cas, le taux change
+    utiliser est précisé dans la colonne **Change**;
+
+- **Multiplicateur :** Le multiplicateur est normalement de 1, 100 ou 1000 et sert à obtenir le change effectif. Comme certaines devises valent peu à l'unité et pour ne pas insérer des changes avec de nombreux zéros, on utilise le multiplicateur. Le multiplicateur peut aussi être spécifié en négatif (-1). Dans ce cas, le programme utilise le taux de change à l'inverse et raisonne comme si les devises saisies dans les colonnes **Devise de référence** et **Devise** étaient inversées. **Ne modifiez pas le multiplicateur** s'il y a déjà des écritures insérées avec la même devise, autrement le programme signalera des erreurs dans les écritures, attribuables aux changes erronés ;
+
+- **Change :** Le change actuel ou de clôture de la devise par rapport à la devise de référence. Celui-ci sert aussi à calculer les différences de change. Avant de calculer les différences de change ou de clôturer la comptabilité, il faut mettre à jour la valeur en insérant la change de clôture. Le change et le multiplicateur sont appliqués selon les formules suivantes :
+
+    -   Avec multiplicateur > 0 Montant Devise = Montant Dev. Référence * (change / |mult.|)
+
+    -   Avec multiplicateur < 0 Montant Dev. Référence = Montant Devise * (change / |mult.|)
+
+- **Change d'ouverture :** Le taux de change au moment de l'ouverture. À indiquer uniquement dans la ligne sans date.
+
+    - Il est utilisé pour convertir le montant d'ouverture de la devise étrangère en montant d'ouverture de la devise de base de la comptabilité ;
+
+    - Doit correspondre au change de clôture de l'année précédente. Si les taux de clôture ne sont pas égaux à ceux de l'ouverture le total des actifs et passifs pourrait être différent, veuillez consulter la page Différences dans les **soldes d'ouverture** ;
+
+    - Le change d'ouverture ne doit jamais être changé au cours de l'année, sinon des différences de change dans le total des soldes d'ouverture seront créées ;
+
+    - Quand on passe à une nouvelle année ou quand on reprend les soldes d'ouverture, le programme définit le taux de change d'ouverture avec la valeur contenue dans la colonne Change (ligne sans date) de la comptabilité de l'année précédente.
+
+-   **Minimum :** Le taux de change minimum accepté. Si dans les écritures un taux de change inférieur est utilisé, un avertissement apparaît.
+
+-   **Maximum :** Le taux de change maximum accepté. Si dans les écritures un taux de change supérieur est utilisé, un avertissement apparaît.
+
+-   **Décimales :** Le nombre de décimales avec lequel les montants pour cette devise sont arrondis.
+
+j. **Modifications dans le tableau Changes**
+
+Les changes insérés dans les écritures sont autonomes et indépendants du change indiqué dans le tableau Changes. Si l'on modifie un change dans le tableau Changes, il n'y aura pas de répercussions dans les écritures insérées précédemment.
+
+En revanche, les modifications suivantes ont des répercussions :
+
+-   **Modification du change d'ouverture**: La prochaine fois qu'un recalcul de la comptabilité sera effectué, le solde en devise de base des comptes sera recalculé avec le nouveau taux de change. Attention donc lorsque vous modifiez les taux de changes d'ouverture une fois que les soldes initiaux ont été insérés ;
+
+-   Si vous apportez une modification dans les changes d'ouverture et qu'il y a des soldes d'ouverture, il sera important d'effectuer un recalcul de la comptabilité ;
+
+-   Modification du multiplicateur :
+
+    - Si le multiplicateur d'une devise, déjà utilisée dans le tableau Écritures, est modifié, le programme donne un avertissement dès qu'un recalcul de la comptabilité est effectué ou lorsque vous passez à la ligne d'écriture. Il faudra à nouveau insérer le montant de l'écriture et le montant correct dans la devise de base ;
+
+    - Quand on recalcule la comptabilité, les soldes d'ouverture seront aussi recalculés dans la devise de base.
+
+k. **Taux de change historique**
+
+Comme indiqué dessus, si un taux de change a une date, le programme le considère comme un change historique. Le programme choisit le taux de change avec une date égale ou inférieure la plus proche de la date de la ligne d'écriture, dans les cas suivants :
+
+-   Quand l'on insère des écritures, si un compte historique existe, le programme le propose et l'utilise comme taux de change prédéfini ;
+
+-   Quand l'on crée des différences de change et qu'il est précisé qu'il faut utiliser le taux de change historique ;
+
+-   Dans les lignes avec date, le taux de change d'ouverture n'est pas utilisé.
+
+l. **Tableau d'écriture**
+
+**Explication des colonnes du tableau Ecriture**
+
+![Tableau d'écriture](images/activity3b_14.jpg)
+
+Dans le tableau Écritures de la Comptabilité Multidevise, il y a les
+colonnes supplémentaires suivantes :
+
+-   **Mont. Devise** : Le montant dans la devise spécifiée dans la colonne sigle devise. Ce montant est utilisé par le programme pour mettre à jour le solde en devise du compte relatif ;
+
+-   **Devise** : Le sigle de la devise à laquelle le montant fait référence. Le sigle devise doit correspondre à la devise de base, spécifié dans les Propriétés fichier, ou le sigle de la devise d\'un compte indiqué dans les colonnes Débit ou Crédit. On peut également utiliser une devise différente, à condition que le compte Débit et le compte Crédit indiqués soient des comptes en devise de base. Dans ce cas, le montant en devise est utilisé comme référence, mais ne sera pas utilisé au niveau comptable ;
+
+-   **Change** : Sert à convertir le montant de la devise étrangère dans l'équivalent de la devise de base ;
+
+-   **Montant en devise de base** : Le montant de l'écriture exprimé en devise de base. Ce montant est utilisé par le programme pour mettre à jour le solde en devise de base du compte relatif ;
+
+-   **Multiplicateur de change** : Normalement non visible dans cette
+    vue, cette valeur est multipliée avec le change.
+
+**N.B. :** Tous les montants, ceux en devise de base ainsi que ceux en devise étrangère, doivent toujours être insérés dans la colonne **Mont. Devise.**
+
+Pour chaque écriture, il y a deux comptes (compte débit et compte
+crédit). Dans chaque ligne d'écriture, le programme permet d'avoir
+seulement ***une*** devise étrangère. On peut donc avoir les
+combinaisons directes suivantes :
+
+-   **Ecriture entre deux comptes en devise de base avec montants en devise de base** (image ligne Pièce 1). La devise du compte débit et du compte crédit sont dans le devise de base
+
+-   **Ecriture entre deux comptes en devise de base avec montants en devise étrangère (Pièce 2).** La devise du compte débit et du compte crédit sont dans le devise de base, mais le sigle de la devise (colonne Devise) et le montant indiqué dans la ligne d'écriture ne sont pas en devise de base mais en devise étrangère. Pour insérer la devise étrangère, il faut changer manuellement le sigle de la devise que le programme propose automatiquement. Ceci est utile quand on va à l'étranger et on change de l'argent pour payer dans la devise locale. Dans ce cas, on n'a pas de compte spécifique dans la comptabilité. Pour le calcul du solde (étant tous les deux en devise de base) seulement le montant de la colonne Devise de base est utilisé.
+
+-   **Ecriture entre un compte en devise étrangère et un compte en devise de base (Pièce 3)**. Le devise doit être celle du compte en devise étrangère. Pour le calcul du solde du compte en devise étrangère, le programme utilise le montant en devise étrangère et pour le solde en devise de base, le programme utilise le montant en devise de base.
+
+-   **Ecriture entre deux comptes dans la même devise** (Pièce 4). La devise doit être la même que celle des comptes utilisés.
+
+-   **Ecriture avec deux comptes contenant des devises étrangères différentes** (Doc 5). Par exemple, la banque fait une opération de change entre deux devises étrangères. Dans ce cas, il faut insérer l'écriture sur deux lignes. Le montant en devise de base doit nécessairement être le même. Il est utile d'utiliser un change proche de la réalité afin de pouvoir éviter des différences de change excessives. Afin d'obtenir des montants égaux en devise de base, il faut manuellement indiquer le montant en devise de base et laisser le programme calculer le change.
+
+-   **Ecritures différences de change**. Le but de cette écriture est de réaligner le solde du compte en devise de base avec la contrevaleur du compte en devise étrangère au change du jour. Seulement le montant en devise de base, relatif à la différence de change, est enregistré sur le compte en devise étrangère. Elles sont générées automatiquement avec la commande Créer écritures différences de change.
+
+![ecriture de change](images/activity3b_15.jpg)
+![ecriture de change](images/activity3b_16.jpg)
+
+- Pour les bénéfices de change, le compte à réévaluer est indiqué en débit et le compte Bénéfice de change au crédit. 
+
+- Pour les pertes de change, le compte à réévaluer est indiqué au crédit et le compte Perte de change en débit.
+
+- Le montant en devise reste vide
+
+- Le sigle de la devise est la devise de base
+
+- Dans la colonne Montant devise de base, le montant de la réévaluation du compte (bénéfice ou perte) est indiqué.
+
+m. **Etablir le change**
+
+C'est au comptable de décider quel est le change à utiliser pour chaque
+opération individuelle. Normalement, les règles suivantes s'appliquent :
+
+-   Pour les opérations usuelles, le change du jour est utilisé.
+
+-   Pour les opérations d'achat/vente de devises, les valeurs indiquées par le bureau de change ou par la banque dont utilisées. Dans le programme on indique d'abord le montant en devise et ensuite le montant en devise de base ; le programme calcule le change. Le change indiqué par la banque pourrait être légèrement différent, car les banques indiquent un change arrondi avec peu de décimales.
+
+-   Si l'on fait plusieurs opérations avec le même taux de change, il est utile de mettre le change dans le tableau Changes à jour, comme ça le programme le reprend automatiquement.
+
+
+##### 2.4 Comptabilité multidevise avec TVA
+
+Pour des opérations étrangères soumises à la TVA, il se peut que l'autorité nationale prescrive un change standard. Le cas échéant, insérer ce change dans la colonne Change de l'écriture.
+
+Pour l'achat d'immobilier ou des titres, un change historique est utilisé. Dans ce cas, il faut, dans le tableau Changes, créer un sigle de devise (par exemple, USD1) avec un change historique, qui ne subit pas les fluctuations de change. On peut créer des sigles de devise pour autant de changes historiques que l'on veut.
+
+**Ecritures avec TVA**
+
+Le compte TVA et le compte dont il faut comptabiliser la TVA doivent
+être en devise de base. Il n'est pas possible d'utiliser un code TVA
+pour comptabiliser la TVA d'un compte en devise étrangère. Pour
+enregistrer des opérations avec TVA qui ont comme contrepartie des
+comptes en devise étrangère, il faut utiliser deux lignes d'écritures :
+
+-   D'abord on enregistre le montant de l'achat sur un compte d'attente en devise de base, et on y insère le code TVA relatif. Le montant en devise de base doit être calculé selon les conditions de l'administration fiscale.
+
+-   Dans une deuxième ligne le compte d'attente est mis à zéro ; comme contrepartie, on indique le compte en devise étrangère. Le montant utilisé pour cette écriture, en devise de base et en devise étrangère, doit être au net de la TVA. Naturellement, il faut utiliser le même taux de change que celui de l'écriture précédente.
+
+Dans l'exemple, la devise de base est le CHF. L'achat dans l'exemple est d'ordre nationale, mais avec un paiement d'un compte en devise étrangère (EUR).
+
+![ecritures avec TVA](images/activity3b_17.jpg)
+
+**Écritures avec TVA et devises étrangères**
+
+Dans les écritures avec des comptes en devises étrangères, il est
+possible d'enregistrer la TVA avec un montant brut (Type montant 0, TVA
+incluse). Si vous saisissez des valeurs nettes (type montant 1, hors
+TVA), le programme indique une erreur qui, comme le calcul de la valeur
+brute, serait souvent erronée en raison de l'arrondi de la TVA et du
+taux de change. Dans ces cas, il est recommandé de saisir la valeur
+brute.
+
+![ecritures avec TVA et devises etrangeres](images/activity3b_18.jpg)
+
+![ecritures avec TVA et devises etrangeres](images/activity3b_19.jpg)
+
+![ecritures avec TVA et devises etrangeres](images/activity3b_20.jpg)
+
+Le programme sépare automatiquement les montants relatifs à la TVA et les comptabilise dans le compte TVA approprié, indiqué par l'utilisateur.
+
+![ecritures avec TVA et devises etrangeres](images/activity3b_21.jpg)
+
+**Explication des colonnes TVA du tableau Écritures (Vue Complète)**
+
+Dans la comptabilité en partie double avec TVA, les colonnes TVA
+suivantes sont présentes :
+
+-   **Code TVA** : Pour chaque écriture soumise à la TVA, on insère
+    le code TVA présent dans le tableau Codes TVA.
+
+-   **%TVA** : le programme reprend, automatiquement du tableau
+    Codes TVA, le pourcentage relatif au code inséré : 16% pour le cas
+    de la RDC.
+
+-   **TVA Extra-Info**: Un code relatif aux informations
+    supplémentaires de la TVA, à utiliser dans des cas très
+    particuliers. On peut insérer un sigle pour identifier différents
+    cas de TVA (IMP = Importation).
+
+-   **% Effectif** : Le programme insère automatiquement le
+    pourcentage référé au montant net (montant imposable). Celui-ci est
+    différent du pourcentage habituel quand ce dernier se réfère au
+    montant brut.
+
+-   **Imposable** : Une fois que les code TVA est inséré, le programme
+    indique automatiquement le montant imposable (hors TVA)
+
+-   **Montant TVA** : le montant TVA est automatiquement indiqué par le
+    programme
+
+-   **Compte TVA** : ici est indiqué, automatiquement, le compte sur
+    lequel la TVA est enregistrée (pour la RDC les comptes 443... sont
+    utilisés pour la TVA collectée et les comptes 445... sont utilisés
+    pour la TVA déductible ou récupérable et lors de la régularisation
+    de la TVA, les comptes 443... sont virés au crédit des comptes 4441
+    et 445... sont crédités par le débit du compte 4441 TVA due).
+
+**N.B.** : La régularisation doit se faire au début du mois suivant
+après avoir imprimé la déclaration du mois N-1. Par exemple, la
+régularisation du mois de janvier doit se faire à la première quinzaine
+du mois de février au préalable imprimer la déclaration TVA du mois de
+janvier.
+
+-   **Montant type** : C'est un code qui indique comment sera considéré le montant de l'écriture.
+
+    -   0 (ou cellule vide) la TVA est incluse dans le montant de l'écriture
+
+    -   1 = hors TVA, la TVA n'est pas incluse dans le montant de l'écriture cas de la RDC.
+
+    -   2 = montant TVA, le montant de l'écriture est considéré comme montant TVA à 100%
+
+-   **% Non Déductible** : le pourcentage de non déductibilité.
+
+-   **TVA Comptabilisée** : le montant enregistré dans le compte TVA est calculé par le programme sur la base du montant de l'écriture, le type du montant et le pourcentage de la TVA.
+
+-   **Ristournes/Notes de crédit**: Dans le cas où on veut ristourner une opération effectuée précédemment, il faut, pour la ristourne de la TVA, faire précéder le code TVA du signe moins (-). Le code TVA doit être celui qui a été utilisé pour enregistrer l'opération qui doit maintenant être ristournée. De cette façon, le montant TVA est rectifié. (Voir la ligne18 encadrée).
+
+![ristournes](images/activity3b_22.jpg)
+
+**Règles à suivre pour la bonne imputation des écritures avec TVA**
+
+1. **Pour les opérations ayant le type montant 1 à l'instar de l'illustration suivante :**
+
+![opérations](images/activity3b_23.jpg)
+
+**Ci-dessous une écriture enregistrée manuellement**
+
+
+
+
+
+
+
+
+
+
+|     Comptes débits    |     Comptes crédits    |     Date de l’opération     Intitulé des comptes                    |     Montant     débits    |     Montant     crédit    |
+|-----------------------|------------------------|---------------------------------------------------------------------|---------------------------|---------------------------|
+|     2444              |                        |     Mobilier   du Bureau                                            |     187.000               |                           |
+|     445120            |                        |     Etat TVA   Récup. Sur Immo Corp.                                |     29.920                |                           |
+|                       |     722100             |     Prod. Immo   Corp.                                              |                           |     187.000               |
+|                       |     443412             |     à TVA   Facturée sur Production livrée à soi-même     </br><center>**BL 126**</center>    |                           |     29.920                |
+
+
 
 
