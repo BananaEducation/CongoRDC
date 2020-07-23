@@ -686,21 +686,81 @@ janvier.
 
 **Ci-dessous une écriture enregistrée manuellement**
 
+![opérations](images/activity3b_24.jpg)
+
+**La deuxième façon de comptabiliser l'écriture ci-dessus est de le faire en deux temps:**
+
+**1er Temps : Enregistrement des achats marchandises :**
+
+![opérations](images/activity3b_25.jpg)
+
+**2ème Temps enregistrement des frais transport sur cet achat**
+
+![opérations](images/activity3b_26.jpg)
+
+En utilisant le logiciel Banana Comptabilité, adopter la comptabilisation en deux temps comme illustrée ci-après (lignes 104 et 105) ; cela vous évitera le massage d'erreur du genre TVA mal comptabilisée ou compte TVA sans compte de contrepartie :
+
+![opérations](images/activity3b_27.jpg)
+
+**Pour les opérations ayant le type montant 2 :**
+
+-   Livraison de biens A Soi-Même ;
+
+-   Production Livrée A Soi-Même/Immobilisations incorporelles ;
+
+-   Production Livrée A Soi-Même/Immobilisations corporelles ;
+
+-   Prestations de service à soi-même
+
+![opérations](images/activity3b_28.jpg)
+
+**Encore :**
+
+- TVA récupérable sur Immob corp prod pour soi-même et
+
+- TVA récupérable sur immo incorp prod pour soi même 
+
+![opérations](images/activity3b_29.jpg)
+
+- **Cas Production Livrée A Soi-Même/Immobilisations incorporelles**
+
+**Exemple de l'écriture enregistrée manuellement**
+
+![opérations](images/activity3b_30.jpg)
+
+**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
+
+![opérations](images/activity3b_31.jpg)
+
+Pour ce type d'écriture ne mouvementer pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
+
+-   **Cas de Livraison de biens A Soi-Même ou de livraison de service à soi-même**
+
+**Exemple de l'écriture enregistrée manuellement**
+
+![opérations](images/activity3b_32.jpg)
+
+**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
+
+![opérations](images/activity3b_33.jpg)
+
+Pour ce type d'écriture ne mouvementez pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
+
+-   **Cas de Régularisation TVA**
+
+![opérations](images/activity3b_34.jpg)
+
+**Exemple de l'écriture enregistrée manuellement**
+
+![opérations](images/activity3b_35.jpg)
+
+**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
+
+![opérations](images/activity3b_36.jpg)
+
+Pour ce type d'écriture ne mouvementer pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
 
 
-
-
-
-
-
-
-
-|     Comptes débits    |     Comptes crédits    |     Date de l’opération     Intitulé des comptes                    |     Montant     débits    |     Montant     crédit    |
-|-----------------------|------------------------|---------------------------------------------------------------------|---------------------------|---------------------------|
-|     2444              |                        |     Mobilier   du Bureau                                            |     187.000               |                           |
-|     445120            |                        |     Etat TVA   Récup. Sur Immo Corp.                                |     29.920                |                           |
-|                       |     722100             |     Prod. Immo   Corp.                                              |                           |     187.000               |
-|                       |     443412             |     à TVA   Facturée sur Production livrée à soi-même     </br><center>**BL 126**</center>    |                           |     29.920                |
 
 
 
