@@ -10,6 +10,7 @@ Contenu:
     - [5. Déroulement de l'activité](#5-déroulement-de-l'activité)
 * [B. Fiche Technique](#B-fiche-technique)
     - [1. Notions](#1-notions)
+    - [2. Types d'écritures](#2-types-d'écritures)
 
 
 ### A. **Fiche Pédagogique**
@@ -301,6 +302,155 @@ Dans les colonnes suivantes, insérez les données suivantes :
 Quand les écritures avec TVA sont insérées, en appliquant le code TVA
 dans la colonne **Cod. TVA**, le programme calcule automatiquement tous
 les montants relatifs à la TVA et les transfère dans le compte TVA.
+
+![ecritures avec TVA et devises etrangeres](images/activity3b_18.jpg)
+
+![ecritures avec TVA et devises etrangeres](images/activity3b_19.jpg)
+
+![ecritures avec TVA et devises etrangeres](images/activity3b_20.jpg)
+
+Le programme sépare automatiquement les montants relatifs à la TVA et les comptabilise dans le compte TVA approprié, indiqué par l'utilisateur.
+
+![ecritures avec TVA et devises etrangeres](images/activity3b_21.jpg)
+
+**Explication des colonnes TVA du tableau Écritures (Vue Complète)**
+
+Dans la comptabilité en partie double avec TVA, les colonnes TVA
+suivantes sont présentes :
+
+-   **Code TVA** : Pour chaque écriture soumise à la TVA, on insère
+    le code TVA présent dans le tableau Codes TVA.
+
+-   **%TVA** : le programme reprend, automatiquement du tableau
+    Codes TVA, le pourcentage relatif au code inséré : 16% pour le cas
+    de la RDC.
+
+-   **TVA Extra-Info**: Un code relatif aux informations
+    supplémentaires de la TVA, à utiliser dans des cas très
+    particuliers. On peut insérer un sigle pour identifier différents
+    cas de TVA (IMP = Importation).
+
+-   **% Effectif** : Le programme insère automatiquement le
+    pourcentage référé au montant net (montant imposable). Celui-ci est
+    différent du pourcentage habituel quand ce dernier se réfère au
+    montant brut.
+
+-   **Imposable** : Une fois que les code TVA est inséré, le programme
+    indique automatiquement le montant imposable (hors TVA)
+
+-   **Montant TVA** : le montant TVA est automatiquement indiqué par le
+    programme
+
+-   **Compte TVA** : ici est indiqué, automatiquement, le compte sur
+    lequel la TVA est enregistrée (pour la RDC les comptes 443... sont
+    utilisés pour la TVA collectée et les comptes 445... sont utilisés
+    pour la TVA déductible ou récupérable et lors de la régularisation
+    de la TVA, les comptes 443... sont virés au crédit des comptes 4441
+    et 445... sont crédités par le débit du compte 4441 TVA due).
+
+**N.B.** : La régularisation doit se faire au début du mois suivant
+après avoir imprimé la déclaration du mois N-1. Par exemple, la
+régularisation du mois de janvier doit se faire à la première quinzaine
+du mois de février au préalable imprimer la déclaration TVA du mois de
+janvier.
+
+-   **Montant type** : C'est un code qui indique comment sera considéré le montant de l'écriture.
+
+    -   0 (ou cellule vide) la TVA est incluse dans le montant de l'écriture
+
+    -   1 = hors TVA, la TVA n'est pas incluse dans le montant de l'écriture cas de la RDC.
+
+    -   2 = montant TVA, le montant de l'écriture est considéré comme montant TVA à 100%
+
+-   **% Non Déductible** : le pourcentage de non déductibilité.
+
+-   **TVA Comptabilisée** : le montant enregistré dans le compte TVA est calculé par le programme sur la base du montant de l'écriture, le type du montant et le pourcentage de la TVA.
+
+-   **Ristournes/Notes de crédit**: Dans le cas où on veut ristourner une opération effectuée précédemment, il faut, pour la ristourne de la TVA, faire précéder le code TVA du signe moins (-). Le code TVA doit être celui qui a été utilisé pour enregistrer l'opération qui doit maintenant être ristournée. De cette façon, le montant TVA est rectifié. (Voir la ligne18 encadrée).
+
+![ristournes](images/activity3b_22.jpg)
+
+**Règles à suivre pour la bonne imputation des écritures avec TVA**
+
+1. **Pour les opérations ayant le type montant 1 à l'instar de l'illustration suivante :**
+
+![opérations](images/activity3b_23.jpg)
+
+**Ci-dessous une écriture enregistrée manuellement**
+
+![opérations](images/activity3b_24.jpg)
+
+**La deuxième façon de comptabiliser l'écriture ci-dessus est de le faire en deux temps:**
+
+**1er Temps : Enregistrement des achats marchandises :**
+
+![opérations](images/activity3b_25.jpg)
+
+**2ème Temps enregistrement des frais transport sur cet achat**
+
+![opérations](images/activity3b_26.jpg)
+
+En utilisant le logiciel Banana Comptabilité, adopter la comptabilisation en deux temps comme illustrée ci-après (lignes 104 et 105) ; cela vous évitera le massage d'erreur du genre TVA mal comptabilisée ou compte TVA sans compte de contrepartie :
+
+![opérations](images/activity3b_27.jpg)
+
+**Pour les opérations ayant le type montant 2 :**
+
+-   Livraison de biens A Soi-Même ;
+
+-   Production Livrée A Soi-Même/Immobilisations incorporelles ;
+
+-   Production Livrée A Soi-Même/Immobilisations corporelles ;
+
+-   Prestations de service à soi-même
+
+![opérations](images/activity3b_28.jpg)
+
+**Encore :**
+
+- TVA récupérable sur Immob corp prod pour soi-même et
+
+- TVA récupérable sur immo incorp prod pour soi même 
+
+![opérations](images/activity3b_29.jpg)
+
+- **Cas Production Livrée A Soi-Même/Immobilisations incorporelles**
+
+**Exemple de l'écriture enregistrée manuellement**
+
+![opérations](images/activity3b_30.jpg)
+
+**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
+
+![opérations](images/activity3b_31.jpg)
+
+Pour ce type d'écriture ne mouvementer pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
+
+-   **Cas de Livraison de biens A Soi-Même ou de livraison de service à soi-même**
+
+**Exemple de l'écriture enregistrée manuellement**
+
+![opérations](images/activity3b_32.jpg)
+
+**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
+
+![opérations](images/activity3b_33.jpg)
+
+Pour ce type d'écriture ne mouvementez pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
+
+-   **Cas de Régularisation TVA**
+
+![opérations](images/activity3b_34.jpg)
+
+**Exemple de l'écriture enregistrée manuellement**
+
+![opérations](images/activity3b_35.jpg)
+
+**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
+
+![opérations](images/activity3b_36.jpg)
+
+Pour ce type d'écriture ne mouvementer pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
 
 ##### 2.3 Comptabilité multidevise sans TVA
 
@@ -611,154 +761,7 @@ brute, serait souvent erronée en raison de l'arrondi de la TVA et du
 taux de change. Dans ces cas, il est recommandé de saisir la valeur
 brute.
 
-![ecritures avec TVA et devises etrangeres](images/activity3b_18.jpg)
 
-![ecritures avec TVA et devises etrangeres](images/activity3b_19.jpg)
-
-![ecritures avec TVA et devises etrangeres](images/activity3b_20.jpg)
-
-Le programme sépare automatiquement les montants relatifs à la TVA et les comptabilise dans le compte TVA approprié, indiqué par l'utilisateur.
-
-![ecritures avec TVA et devises etrangeres](images/activity3b_21.jpg)
-
-**Explication des colonnes TVA du tableau Écritures (Vue Complète)**
-
-Dans la comptabilité en partie double avec TVA, les colonnes TVA
-suivantes sont présentes :
-
--   **Code TVA** : Pour chaque écriture soumise à la TVA, on insère
-    le code TVA présent dans le tableau Codes TVA.
-
--   **%TVA** : le programme reprend, automatiquement du tableau
-    Codes TVA, le pourcentage relatif au code inséré : 16% pour le cas
-    de la RDC.
-
--   **TVA Extra-Info**: Un code relatif aux informations
-    supplémentaires de la TVA, à utiliser dans des cas très
-    particuliers. On peut insérer un sigle pour identifier différents
-    cas de TVA (IMP = Importation).
-
--   **% Effectif** : Le programme insère automatiquement le
-    pourcentage référé au montant net (montant imposable). Celui-ci est
-    différent du pourcentage habituel quand ce dernier se réfère au
-    montant brut.
-
--   **Imposable** : Une fois que les code TVA est inséré, le programme
-    indique automatiquement le montant imposable (hors TVA)
-
--   **Montant TVA** : le montant TVA est automatiquement indiqué par le
-    programme
-
--   **Compte TVA** : ici est indiqué, automatiquement, le compte sur
-    lequel la TVA est enregistrée (pour la RDC les comptes 443... sont
-    utilisés pour la TVA collectée et les comptes 445... sont utilisés
-    pour la TVA déductible ou récupérable et lors de la régularisation
-    de la TVA, les comptes 443... sont virés au crédit des comptes 4441
-    et 445... sont crédités par le débit du compte 4441 TVA due).
-
-**N.B.** : La régularisation doit se faire au début du mois suivant
-après avoir imprimé la déclaration du mois N-1. Par exemple, la
-régularisation du mois de janvier doit se faire à la première quinzaine
-du mois de février au préalable imprimer la déclaration TVA du mois de
-janvier.
-
--   **Montant type** : C'est un code qui indique comment sera considéré le montant de l'écriture.
-
-    -   0 (ou cellule vide) la TVA est incluse dans le montant de l'écriture
-
-    -   1 = hors TVA, la TVA n'est pas incluse dans le montant de l'écriture cas de la RDC.
-
-    -   2 = montant TVA, le montant de l'écriture est considéré comme montant TVA à 100%
-
--   **% Non Déductible** : le pourcentage de non déductibilité.
-
--   **TVA Comptabilisée** : le montant enregistré dans le compte TVA est calculé par le programme sur la base du montant de l'écriture, le type du montant et le pourcentage de la TVA.
-
--   **Ristournes/Notes de crédit**: Dans le cas où on veut ristourner une opération effectuée précédemment, il faut, pour la ristourne de la TVA, faire précéder le code TVA du signe moins (-). Le code TVA doit être celui qui a été utilisé pour enregistrer l'opération qui doit maintenant être ristournée. De cette façon, le montant TVA est rectifié. (Voir la ligne18 encadrée).
-
-![ristournes](images/activity3b_22.jpg)
-
-**Règles à suivre pour la bonne imputation des écritures avec TVA**
-
-1. **Pour les opérations ayant le type montant 1 à l'instar de l'illustration suivante :**
-
-![opérations](images/activity3b_23.jpg)
-
-**Ci-dessous une écriture enregistrée manuellement**
-
-![opérations](images/activity3b_24.jpg)
-
-**La deuxième façon de comptabiliser l'écriture ci-dessus est de le faire en deux temps:**
-
-**1er Temps : Enregistrement des achats marchandises :**
-
-![opérations](images/activity3b_25.jpg)
-
-**2ème Temps enregistrement des frais transport sur cet achat**
-
-![opérations](images/activity3b_26.jpg)
-
-En utilisant le logiciel Banana Comptabilité, adopter la comptabilisation en deux temps comme illustrée ci-après (lignes 104 et 105) ; cela vous évitera le massage d'erreur du genre TVA mal comptabilisée ou compte TVA sans compte de contrepartie :
-
-![opérations](images/activity3b_27.jpg)
-
-**Pour les opérations ayant le type montant 2 :**
-
--   Livraison de biens A Soi-Même ;
-
--   Production Livrée A Soi-Même/Immobilisations incorporelles ;
-
--   Production Livrée A Soi-Même/Immobilisations corporelles ;
-
--   Prestations de service à soi-même
-
-![opérations](images/activity3b_28.jpg)
-
-**Encore :**
-
-- TVA récupérable sur Immob corp prod pour soi-même et
-
-- TVA récupérable sur immo incorp prod pour soi même 
-
-![opérations](images/activity3b_29.jpg)
-
-- **Cas Production Livrée A Soi-Même/Immobilisations incorporelles**
-
-**Exemple de l'écriture enregistrée manuellement**
-
-![opérations](images/activity3b_30.jpg)
-
-**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
-
-![opérations](images/activity3b_31.jpg)
-
-Pour ce type d'écriture ne mouvementer pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
-
--   **Cas de Livraison de biens A Soi-Même ou de livraison de service à soi-même**
-
-**Exemple de l'écriture enregistrée manuellement**
-
-![opérations](images/activity3b_32.jpg)
-
-**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
-
-![opérations](images/activity3b_33.jpg)
-
-Pour ce type d'écriture ne mouvementez pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
-
--   **Cas de Régularisation TVA**
-
-![opérations](images/activity3b_34.jpg)
-
-**Exemple de l'écriture enregistrée manuellement**
-
-![opérations](images/activity3b_35.jpg)
-
-**Avec le logiciel banana imputer les comptes comme l'image ci-dessous illustrée l'indique :**
-
-![opérations](images/activity3b_36.jpg)
-
-Pour ce type d'écriture ne mouvementer pas les comptes TVA correspondant, il vous suffit d'insérer le montant de l'écriture et d'actionner le code TVA correspondant ayant comme Type montant 2 (montant de l'écriture est 100% TVA) ; le compte TVA est pris en compte automatiquement.
 
 
 
