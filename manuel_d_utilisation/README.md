@@ -1,4 +1,4 @@
-# Utilisation du logiciel Banana Comptabilité en milieu scolaire
+# Utilisation du logiciel Banana Comptabilité en milieu scolaire en République Démocratique du Congo
 
 * [Activité 1: Approche Introductive](Activity1.md)
 
