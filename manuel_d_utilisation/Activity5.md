@@ -9,6 +9,16 @@ Contenu:
     - [4. Durée](#4-durée)
     - [5. Déroulement de l'activité](#5-déroulement-de-l'activité)
 * [B. Fiche Technique](#B-fiche-technique)
+    - [1. Notions](#1-notions)
+    - [2. Caractéristiques](#2-caractéristiques)
+    - [3. Tableaux et Propriétés fichiers](#3-tableaux-et-propriétés-fichiers)
+    - [4. Commencer un Cash Manager](#4-commencer-un-cash-manager)
+    - [5. Insérer le solde d'ouverture du compte caisse ou banque](#5-insérer-le-solde-d'ouverture-du-compte-caisse-ou-banque)
+    - [6. Catégories](#6-catégories)
+    - [7. Regroupement](#7-regroupement)
+    - [8. Les colonnes du tableau Catégories](#8-les-colonnes-du-tableau-catégories)
+    - [9. Écritures](#9-écritures)
+    - [10. Importer mouvements de la caisse](#10-importer-mouvements-de-la-caisse)
 
 
 
