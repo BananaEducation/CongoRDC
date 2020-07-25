@@ -5,3 +5,7 @@
 * [Activité 2: Configuration du plan des comptes](Activity2.md)
 
 * [Activité 3: Comptabilisation](Activity3.md)
+
+* [Activité 4: Introduction à la facturation dans Banana Comptabilité](Activity4.md)
+
+* [Activité 5: Gestion de trésorerie](Activity5.md)
