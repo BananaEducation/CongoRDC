@@ -77,13 +77,13 @@ et les dépenses.
 
 #### 2. Caractéristiques
 
--   Gère le compte caisse ou banque ainsi que les dépenses et recettes
+-   Gère le compte caisse ou banque ainsi que les dépenses et recettes,
 
--   La typologie avec la TVA permet les calculs de la TVA e les Rapports TVA
+-   La typologie avec la TVA permet les calculs de la TVA e les Rapports TVA,
 
 -   Elabore toutes les écritures comptables : journal, fiches de compte,
 
--   Importer ces mouvements au journal de la comptabilité en partie double par période ou annuels
+-   Importer ces mouvements au journal de la comptabilité en partie double par période ou annuels.
 
 #### 3. Tableaux et Propriétés fichiers
 
