@@ -9,3 +9,8 @@
 * [Activité 4: Introduction à la facturation dans Banana Comptabilité](Activity4.md)
 
 * [Activité 5: Gestion de trésorerie](Activity5.md)
+
+* [Activité 6: Gestion des actifs Immobilisés amortissables (Registre des actifs)](Activity6.md)
+
+* [Activité 7: Edition des Grand Livre, Balance et états financiers](Activity7.md)
+

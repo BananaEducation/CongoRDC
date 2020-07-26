@@ -1,4 +1,4 @@
-## Activité 7 : Edition des Grand Livre, Balance et états financiers
+## Activité 7: Edition des Grand Livre, Balance et états financiers
 
 Contenu:
 
