@@ -8,7 +8,23 @@ Contenu:
     - [3. Méthodes et Techniques](#3-méthodes-et-techniques)
     - [4. Durée](#4-durée)
     - [5. Déroulement de l'activité](#5-déroulement-de-l'activité)
-
+* [B. Fiche Technique](#B-fiche-technique)
+    - [1. Trésorerie nette au 01/01/N](#tableau-1-trésorerie-nette-au-01/01/N)
+    - [2. Capacité d'Autofinancement Globale (CAFG)](#tableau-2-capacité-d'autofinancement-globale-(cafg))
+    - [3. Variation actif circulant HAO](#tableau-3-variation-actif-circulant-hao)
+    - [4. Variation des stocks](#tableau-4-variation-des-stocks)
+    - [5. Variation des créances](#tableau-5-variation-des-créances)
+    - [6. Variation des passifs circulants](#tableau-6-variation-des-passifs-circulants)
+    - [7. Décaissements liés aux acquisitions d'immobilisations incorporelles](#tableau-7-décaissements-liés-aux-acquisitions-d'immobilisations-incorporelles)
+    - [8. Décaissements liés aux acquisitions d'immobilisations corporelles](#tableau-8-décaissements-liés-aux-acquisitions-d'immobilisations-corporelles)
+    - [9. Décaissements liés aux acquisitions d'immobilisations financières](#tableau-9-décaissements-liés-aux-acquisitions-d'immobilisations-financières)
+    - [10. Encaissements liés aux cessions d'immobilisations incorporelles et corporelles](#tableau-10-encaissements-liés-aux-cessions-d'immobilisations-incorporelles-et-corporelles)
+    - [11. Encaissements liés aux cessions d'immobilisations financières](#tableau-11-encaissements-liés-aux-cessions-d'immobilisations-financières)
+    - [12. Augmentation du capital par apports nouveaux](#tableau-12-augmentation-du-capital-par-apports-nouveaux)
+    - [13. Subventions d'investissements reçues](#tableau-13-subventions-d'investissements-reçues)
+    - [14. Prélèvements sur le capital](#tableau-14-prélèvements-sur-le-capital)
+    - [15. Dividendes versés](#tableau-15-dividendes-versés)
+    - [16. Emprunts](#tableau-16-emprunts)
 
 
 
