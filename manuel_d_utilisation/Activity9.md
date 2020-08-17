@@ -59,7 +59,7 @@ Exposé, discussion dirigée, brainstorming et travail de groupe.
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | --------- |
 | 1      | Présenter l’activité et ses objectifs                                                                                                                                        | Exposé                     | 5 min.    |
 | 2      | Expliquer :<ul><li>La procédure de blocage, contrôle bloc et de déblocage des écritures ;</li><li>Archiver les données comptables</li></ul>                                                             | Brainstorming              | 30 min.   |
-| 3      | Constituer des sous-groupes pour  Bloquer**,** contrôler et débloquer les écritures partant d’une application                                                                | Travail en groupe          | 55 min.   |
+| 3      | Constituer des sous-groupes pour  Bloquer, contrôler et débloquer les écritures partant d’une application                                                                | Travail en groupe          | 55 min.   |
 | 4      | En plénière : le rapporteur de chaque sous-groupe présente la production de son équipe suivie de mise en commun avec les membres des autres sous-groupes et du facilitateur. | Discussion dirigée         | 20 min.   |
 | 5      | Questions de synthèse<ul><li>Comment se fait la certification digitale des données comptables ;</li><li>Comment archiver les données comptables ?    </li></ul>                                         | Discussion dirigée         | 10 min.   |
 
