@@ -16,3 +16,5 @@
 
 * [Activité 8: Comprendre les Différentes Lignes des Tableaux de Flux de Trésorerie](Activity8.md)
 
+* [Activité 9: Protection des écritures et des données comptables (Bloquer écritures et certification)](Activity9.md)
+
