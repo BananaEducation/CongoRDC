@@ -18,3 +18,5 @@
 
 * [Activité 9: Protection des écritures et des données comptables (Bloquer écritures et certification)](Activity9.md)
 
+* [Activité 10: étude de cas de l'entité La COM RDC](Activity10.md)
+
