@@ -9,6 +9,9 @@ Contenu:
     - [4. Durée](#4-durée)
     - [5. Déroulement de l'activité](#5-déroulement-de-l'activité)
 * [B. Fiche Technique](#B-fiche-technique)
+    - [1. Énoncé de l'application](#1-énoncé-de-l'application)
+    - [2. Les opérations réalisées durant l'année 2020](#2-les-opérations-réalisées-durant-l'année-2020)
+    - [3. Résolution](#3-résolution)
 
 
 
@@ -179,7 +182,7 @@ KINANO de :
 
 #### 3. Résolution
 
-#### 3.1 Plan des comptes configuré et insertion de soldes d'ouverture
+##### 3.1 Plan des comptes configuré et insertion de soldes d'ouverture
 
 ![Plan des comptes 1](images/activity10b_5.jpg)
 ![Plan des comptes 2](images/activity10b_6.jpg)
@@ -197,4 +200,38 @@ KINANO de :
 ![Plan des comptes 14](images/activity10b_18.jpg)
 ![Plan des comptes 15](images/activity10b_19.jpg)
 
+
+##### 3.2 Écritures
+
+![Écritures 1](images/activity10b_20.jpg)
+![Écritures 2](images/activity10b_21.jpg)
+![Écritures 3](images/activity10b_22.jpg)
+![Écritures 4](images/activity10b_23.jpg)
+![Écritures 5](images/activity10b_24.jpg)
+![Écritures 6](images/activity10b_25.jpg)
+
+
+##### 3.3 Totaux
+
+| **_Groupe_** | **_Libellé_**                               | **_Gr_** | **_Ouverture CDF_**  | **_Solde CDF_**        |
+| ------------ | ------------------------------------------- | -------- | -------------------- | ---------------------- |
+| **1**        | **Total Actifs**                            | **01**   | **683 607 600,00**   | **1 350 035 320,00**   |
+| **2**        | **Total Passifs et Capital propre**         | **01**   | **\-683 607 600,00** | **\-1 222 778 520,00** |
+| **01**       | **Bénéfice(+) Perte(-) au bilan**           | **00**   |                      | **127 256 800,00**     |
+| **3**        | **Total Charges**                           | **02**   |                      | **239 190 200,00**     |
+| **4**        | **Total Produits**                          | **02**   |                      | **\-366 447 000,00**   |
+| **02**       | **Perte(+) Bénéfice(-) Compte de résultat** | **00**   |                      | **\-127 256 800,00**   |
+| **00**       | **Différence doit être = 0**                |          |                      |                        |
+| **5**        | **Total hors bilan: Actifs**                |          |                      |                        |
+| **6**        | **Total hors bilan: Passifs**               |          |                      |                        |
+| **7**        | **Total classe 7**                          |          |                      |                        |
+| **8**        | **Total classe 8**                          |          |                      |                        |
+| **9**        | **Total classe 9**                          |          |                      |                        |
+
+
+##### 3.4 Codes TVA
+
+![Totaux 1](images/activity10b_26.jpg)
+![Totaux 2](images/activity10b_27.jpg)
+![Totaux 3](images/activity10b_28.jpg)
 
