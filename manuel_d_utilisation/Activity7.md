@@ -100,7 +100,12 @@ de la manière suivante :
 
 -   Aller sur menu **Extensions** ;
 
-Cliquer sur **Rapport Comptable (OHADA - RDC)** et ensuite sur **Bilan, Compte de résultat, Tableau des flux de trésorerie**
+- Aller sur **Rapport Comptable OHADA et Congo RDC)**
+
+- Cliquer sur **Bilan, Compte de résultat, Tableau des flux de trésorerie Mono-devise** pour la comptabilité mono-devise
+
+- Cliquer sur **Bilan, Compte de résultat, Tableau des flux de trésorerie Multi-devise** pour la comptabilité multi-devise
+
 
 ![états financiers](images/activity7b_4.jpg)
 
